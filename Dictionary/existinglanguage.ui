@@ -159,6 +159,9 @@
         <property name="text">
          <string>Return</string>
         </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
         <attribute name="buttonGroup">
          <string notr="true">buttonGroup</string>
         </attribute>

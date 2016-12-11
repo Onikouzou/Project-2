@@ -60,6 +60,9 @@
         <property name="text">
          <string>Create A New Language</string>
         </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
        </widget>
       </item>
       <item>
@@ -107,6 +110,9 @@
         </property>
         <property name="text">
          <string>Exit</string>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
         </property>
        </widget>
       </item>
