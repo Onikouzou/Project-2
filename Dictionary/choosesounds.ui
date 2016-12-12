@@ -11,10 +11,10 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Language Creation Tool</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnP">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -35,8 +35,14 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btnB">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -58,7 +64,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btnM">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -80,7 +86,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btnBilabialTrill">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -102,7 +108,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="btnBilabialFricative">
     <property name="geometry">
      <rect>
       <x>70</x>
@@ -124,7 +130,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="btnBeta">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -146,7 +152,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="btnLabiodentalNasal">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -168,7 +174,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="btnD">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -190,7 +196,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="btnRetroflexStop">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -212,7 +218,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="btnRetroflexStop_2">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -234,7 +240,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="btnC">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -256,7 +262,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="btnPalatalStop">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -278,7 +284,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="btnK">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -300,7 +306,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="btnG">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -322,7 +328,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="btnQ">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -344,7 +350,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="btnVoicedUvularStop">
     <property name="geometry">
      <rect>
       <x>750</x>
@@ -366,7 +372,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="btnN">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -388,7 +394,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_19">
+   <widget class="QPushButton" name="btnR">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -410,7 +416,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_20">
+   <widget class="QPushButton" name="btnAlveolarTapFlap">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -432,7 +438,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_21">
+   <widget class="QPushButton" name="btnZ">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -454,7 +460,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_22">
+   <widget class="QPushButton" name="btnDentalAlveolarFricative">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -476,7 +482,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_23">
+   <widget class="QPushButton" name="btnAlveolarPostApprox">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -498,7 +504,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_24">
+   <widget class="QPushButton" name="btnL">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -520,7 +526,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_25">
+   <widget class="QPushButton" name="btnF">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -542,7 +548,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_26">
+   <widget class="QPushButton" name="btnV">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -564,7 +570,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_27">
+   <widget class="QPushButton" name="btnTheta">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -586,7 +592,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_28">
+   <widget class="QPushButton" name="btnVoicedDentalFricative">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -608,7 +614,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_29">
+   <widget class="QPushButton" name="btnS">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -630,7 +636,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_30">
+   <widget class="QPushButton" name="btnT">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -652,7 +658,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_31">
+   <widget class="QPushButton" name="btnAlveolarLatFric">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -674,7 +680,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_32">
+   <widget class="QPushButton" name="btnLabiodentaApprox">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -696,7 +702,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_33">
+   <widget class="QPushButton" name="btnEsh">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -718,7 +724,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_34">
+   <widget class="QPushButton" name="btnEzh">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -740,7 +746,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_35">
+   <widget class="QPushButton" name="btnRetroflexSibilant">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -762,7 +768,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_36">
+   <widget class="QPushButton" name="btnVoicedRetroflexSibilant">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -784,7 +790,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_37">
+   <widget class="QPushButton" name="btnRetroflexNasal">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -806,7 +812,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_38">
+   <widget class="QPushButton" name="btnRetroflexFlap">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -828,7 +834,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_39">
+   <widget class="QPushButton" name="btnRetroflexApproximant">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -850,7 +856,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_40">
+   <widget class="QPushButton" name="btnRetroflexLateralApproximant">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -872,7 +878,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_41">
+   <widget class="QPushButton" name="btnPalatalFricative">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -894,7 +900,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_42">
+   <widget class="QPushButton" name="btnPalatalFricative_2">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -916,7 +922,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_43">
+   <widget class="QPushButton" name="btnX">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -938,7 +944,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_44">
+   <widget class="QPushButton" name="btnVoicedVelarFricative">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -960,7 +966,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_45">
+   <widget class="QPushButton" name="btnX2">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -982,7 +988,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_46">
+   <widget class="QPushButton" name="btnUvularFricative">
     <property name="geometry">
      <rect>
       <x>750</x>
@@ -1004,7 +1010,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_47">
+   <widget class="QPushButton" name="btnPharyngealFricative">
     <property name="geometry">
      <rect>
       <x>790</x>
@@ -1026,7 +1032,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_48">
+   <widget class="QPushButton" name="btnPharyngealFricative_2">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -1048,7 +1054,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_49">
+   <widget class="QPushButton" name="btnH">
     <property name="geometry">
      <rect>
       <x>870</x>
@@ -1070,7 +1076,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_50">
+   <widget class="QPushButton" name="btnGlottalFricative">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -1092,7 +1098,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_51">
+   <widget class="QPushButton" name="btnPalatalNasal">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -1114,7 +1120,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_52">
+   <widget class="QPushButton" name="btnJ">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -1136,7 +1142,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_53">
+   <widget class="QPushButton" name="btnPalatalLateralApproximant">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -1152,13 +1158,13 @@
      </font>
     </property>
     <property name="text">
-     <string>	ʎ</string>
+     <string>ʎ</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_54">
+   <widget class="QPushButton" name="btnVoicedVelarApproximant">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -1180,7 +1186,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_55">
+   <widget class="QPushButton" name="btnVelarLateralApproximant">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -1196,13 +1202,13 @@
      </font>
     </property>
     <property name="text">
-     <string>	ʟ</string>
+     <string>ʟ</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_58">
+   <widget class="QPushButton" name="btnVelarNasal">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -1224,7 +1230,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_59">
+   <widget class="QPushButton" name="btnUvularNasal">
     <property name="geometry">
      <rect>
       <x>750</x>
@@ -1246,7 +1252,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_60">
+   <widget class="QPushButton" name="btnUvularTrill">
     <property name="geometry">
      <rect>
       <x>750</x>
@@ -1268,7 +1274,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_56">
+   <widget class="QPushButton" name="btnGlottalStop">
     <property name="geometry">
      <rect>
       <x>870</x>
@@ -3067,6 +3073,111 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>490</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Return</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSubmit">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>460</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblCons">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>290</y>
+      <width>121</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Consonants</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>121</width>
+      <height>258</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_43">
+       <property name="text">
+        <string>Consonants</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listConsonants"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_44">
+       <property name="text">
+        <string>Vowels</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listVowels"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnReset">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout"/>
+     </item>
+    </layout>
+   </widget>
    <zorder>line_29</zorder>
    <zorder>line_27</zorder>
    <zorder>line_28</zorder>
@@ -3099,64 +3210,64 @@
    <zorder>line_9</zorder>
    <zorder>line_6</zorder>
    <zorder>line_4</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>pushButton_5</zorder>
-   <zorder>pushButton_6</zorder>
-   <zorder>pushButton_7</zorder>
-   <zorder>pushButton_9</zorder>
-   <zorder>pushButton_10</zorder>
-   <zorder>pushButton_11</zorder>
-   <zorder>pushButton_12</zorder>
-   <zorder>pushButton_13</zorder>
-   <zorder>pushButton_14</zorder>
-   <zorder>pushButton_15</zorder>
-   <zorder>pushButton_16</zorder>
-   <zorder>pushButton_17</zorder>
-   <zorder>pushButton_18</zorder>
-   <zorder>pushButton_19</zorder>
-   <zorder>pushButton_20</zorder>
-   <zorder>pushButton_21</zorder>
-   <zorder>pushButton_22</zorder>
-   <zorder>pushButton_23</zorder>
-   <zorder>pushButton_24</zorder>
-   <zorder>pushButton_25</zorder>
-   <zorder>pushButton_26</zorder>
-   <zorder>pushButton_27</zorder>
-   <zorder>pushButton_28</zorder>
-   <zorder>pushButton_29</zorder>
-   <zorder>pushButton_30</zorder>
-   <zorder>pushButton_31</zorder>
-   <zorder>pushButton_32</zorder>
-   <zorder>pushButton_33</zorder>
-   <zorder>pushButton_34</zorder>
-   <zorder>pushButton_35</zorder>
-   <zorder>pushButton_36</zorder>
-   <zorder>pushButton_37</zorder>
-   <zorder>pushButton_38</zorder>
-   <zorder>pushButton_39</zorder>
-   <zorder>pushButton_40</zorder>
-   <zorder>pushButton_41</zorder>
-   <zorder>pushButton_42</zorder>
-   <zorder>pushButton_43</zorder>
-   <zorder>pushButton_44</zorder>
-   <zorder>pushButton_45</zorder>
-   <zorder>pushButton_46</zorder>
-   <zorder>pushButton_47</zorder>
-   <zorder>pushButton_48</zorder>
-   <zorder>pushButton_49</zorder>
-   <zorder>pushButton_50</zorder>
-   <zorder>pushButton_51</zorder>
-   <zorder>pushButton_52</zorder>
-   <zorder>pushButton_53</zorder>
-   <zorder>pushButton_54</zorder>
-   <zorder>pushButton_55</zorder>
-   <zorder>pushButton_58</zorder>
-   <zorder>pushButton_59</zorder>
-   <zorder>pushButton_60</zorder>
-   <zorder>pushButton_56</zorder>
+   <zorder>btnP</zorder>
+   <zorder>btnB</zorder>
+   <zorder>btnM</zorder>
+   <zorder>btnBilabialTrill</zorder>
+   <zorder>btnBilabialFricative</zorder>
+   <zorder>btnBeta</zorder>
+   <zorder>btnLabiodentalNasal</zorder>
+   <zorder>btnD</zorder>
+   <zorder>btnRetroflexStop</zorder>
+   <zorder>btnRetroflexStop_2</zorder>
+   <zorder>btnC</zorder>
+   <zorder>btnPalatalStop</zorder>
+   <zorder>btnK</zorder>
+   <zorder>btnG</zorder>
+   <zorder>btnQ</zorder>
+   <zorder>btnVoicedUvularStop</zorder>
+   <zorder>btnN</zorder>
+   <zorder>btnR</zorder>
+   <zorder>btnAlveolarTapFlap</zorder>
+   <zorder>btnZ</zorder>
+   <zorder>btnDentalAlveolarFricative</zorder>
+   <zorder>btnAlveolarPostApprox</zorder>
+   <zorder>btnL</zorder>
+   <zorder>btnF</zorder>
+   <zorder>btnV</zorder>
+   <zorder>btnTheta</zorder>
+   <zorder>btnVoicedDentalFricative</zorder>
+   <zorder>btnS</zorder>
+   <zorder>btnT</zorder>
+   <zorder>btnAlveolarLatFric</zorder>
+   <zorder>btnLabiodentaApprox</zorder>
+   <zorder>btnEsh</zorder>
+   <zorder>btnEzh</zorder>
+   <zorder>btnRetroflexSibilant</zorder>
+   <zorder>btnVoicedRetroflexSibilant</zorder>
+   <zorder>btnRetroflexNasal</zorder>
+   <zorder>btnRetroflexFlap</zorder>
+   <zorder>btnRetroflexApproximant</zorder>
+   <zorder>btnRetroflexLateralApproximant</zorder>
+   <zorder>btnPalatalFricative</zorder>
+   <zorder>btnPalatalFricative_2</zorder>
+   <zorder>btnX</zorder>
+   <zorder>btnVoicedVelarFricative</zorder>
+   <zorder>btnX2</zorder>
+   <zorder>btnUvularFricative</zorder>
+   <zorder>btnPharyngealFricative</zorder>
+   <zorder>btnPharyngealFricative_2</zorder>
+   <zorder>btnH</zorder>
+   <zorder>btnGlottalFricative</zorder>
+   <zorder>btnPalatalNasal</zorder>
+   <zorder>btnJ</zorder>
+   <zorder>btnPalatalLateralApproximant</zorder>
+   <zorder>btnVoicedVelarApproximant</zorder>
+   <zorder>btnVelarLateralApproximant</zorder>
+   <zorder>btnVelarNasal</zorder>
+   <zorder>btnUvularNasal</zorder>
+   <zorder>btnUvularTrill</zorder>
+   <zorder>btnGlottalStop</zorder>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>label_4</zorder>
@@ -3227,6 +3338,13 @@
    <zorder>label_40</zorder>
    <zorder>label_41</zorder>
    <zorder>label_42</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>btnSubmit</zorder>
+   <zorder>listConsonants</zorder>
+   <zorder></zorder>
+   <zorder>btnSubmit</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>lblCons</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -3241,5 +3359,22 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btnP</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>listConsonants</receiver>
+   <slot>scrollToBottom()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>98</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
