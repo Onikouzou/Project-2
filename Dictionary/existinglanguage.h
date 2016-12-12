@@ -34,7 +34,7 @@ private slots:
 
 private:
     Ui::ExistingLanguage *ui;
-    Language lang;
+//    Language lang;
     ChooseSounds *sounds;
 
 };

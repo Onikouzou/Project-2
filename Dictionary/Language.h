@@ -23,7 +23,7 @@ public:
 	std::string getVowels() { return vowels; };
 	std::string getOnsetClusters() { return onsetClusters; };
 	std::string getCodaClusters() { return codaClusters; };
-	std::string getStructure(){ return structure; };
+    std::string getStructure(){ return structure; };
 
 	bool setName(std::string n);
 	bool setConsonants(std::string c);

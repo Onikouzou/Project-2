@@ -18,7 +18,9 @@ SOURCES += main.cpp\
     customdialog.cpp \
     Language.cpp \
     Dictionary.cpp \
-    choosesounds.cpp
+    choosesounds.cpp \
+    SoundHelper.cpp \
+    WordGenerator.cpp
 
 HEADERS  += mainmenu.h \
     existinglanguage.h \

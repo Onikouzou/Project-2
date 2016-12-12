@@ -39,7 +39,7 @@
      <bool>false</bool>
     </property>
     <property name="flat">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="btnB">
@@ -61,6 +61,9 @@
      <string>b</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -85,6 +88,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnBilabialTrill">
     <property name="geometry">
@@ -105,6 +111,9 @@
      <string>ʙ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -129,6 +138,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnBeta">
     <property name="geometry">
@@ -149,6 +161,9 @@
      <string>β</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -173,6 +188,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnD">
     <property name="geometry">
@@ -193,6 +211,9 @@
      <string>d</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -217,6 +238,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnRetroflexStop_2">
     <property name="geometry">
@@ -237,6 +261,9 @@
      <string>ɖ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -261,6 +288,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnPalatalStop">
     <property name="geometry">
@@ -281,6 +311,9 @@
      <string>ɟ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -305,6 +338,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnG">
     <property name="geometry">
@@ -325,6 +361,9 @@
      <string>g</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -349,6 +388,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnVoicedUvularStop">
     <property name="geometry">
@@ -369,6 +411,9 @@
      <string>ɢ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -393,6 +438,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnR">
     <property name="geometry">
@@ -413,6 +461,9 @@
      <string>r</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -437,6 +488,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnZ">
     <property name="geometry">
@@ -457,6 +511,9 @@
      <string>z</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -481,6 +538,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnAlveolarPostApprox">
     <property name="geometry">
@@ -501,6 +561,9 @@
      <string>ɹ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -525,6 +588,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnF">
     <property name="geometry">
@@ -545,6 +611,9 @@
      <string>f</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -569,6 +638,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnTheta">
     <property name="geometry">
@@ -589,6 +661,9 @@
      <string>θ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -613,6 +688,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnS">
     <property name="geometry">
@@ -633,6 +711,9 @@
      <string>s</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -657,6 +738,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnAlveolarLatFric">
     <property name="geometry">
@@ -677,6 +761,9 @@
      <string>ɬ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -701,6 +788,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnEsh">
     <property name="geometry">
@@ -721,6 +811,9 @@
      <string>ʃ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -745,6 +838,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnRetroflexSibilant">
     <property name="geometry">
@@ -765,6 +861,9 @@
      <string>ʂ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -789,6 +888,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnRetroflexNasal">
     <property name="geometry">
@@ -809,6 +911,9 @@
      <string>ɳ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -833,6 +938,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnRetroflexApproximant">
     <property name="geometry">
@@ -855,8 +963,11 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QPushButton" name="btnRetroflexLateralApproximant">
+   <widget class="QPushButton" name="btnRetroflexLateralApprox">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -875,6 +986,9 @@
      <string>ɭ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -899,6 +1013,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnPalatalFricative_2">
     <property name="geometry">
@@ -919,6 +1036,9 @@
      <string>ʝ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -943,6 +1063,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnVoicedVelarFricative">
     <property name="geometry">
@@ -965,6 +1088,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnX2">
     <property name="geometry">
@@ -982,9 +1108,12 @@
      </font>
     </property>
     <property name="text">
-     <string>x</string>
+     <string>χ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1009,6 +1138,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnPharyngealFricative">
     <property name="geometry">
@@ -1029,6 +1161,9 @@
      <string>ħ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1053,6 +1188,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnH">
     <property name="geometry">
@@ -1073,6 +1211,9 @@
      <string>h</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1097,6 +1238,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnPalatalNasal">
     <property name="geometry">
@@ -1117,6 +1261,9 @@
      <string>ɲ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1141,6 +1288,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnPalatalLateralApproximant">
     <property name="geometry">
@@ -1161,6 +1311,9 @@
      <string>ʎ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1185,6 +1338,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnVelarLateralApproximant">
     <property name="geometry">
@@ -1205,6 +1361,9 @@
      <string>ʟ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1229,6 +1388,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnUvularNasal">
     <property name="geometry">
@@ -1249,6 +1411,9 @@
      <string>ɴ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1273,6 +1438,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="btnGlottalStop">
     <property name="geometry">
@@ -1293,6 +1461,9 @@
      <string>ʔ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1917,6 +2088,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_68">
     <property name="geometry">
@@ -1937,6 +2111,9 @@
      <string>ɯ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -1961,6 +2138,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_80">
     <property name="geometry">
@@ -1983,8 +2163,11 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_84">
+   <widget class="QPushButton" name="btnFrontClose">
     <property name="geometry">
      <rect>
       <x>350</x>
@@ -2003,6 +2186,9 @@
      <string>i</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2027,6 +2213,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_77">
     <property name="geometry">
@@ -2047,6 +2236,9 @@
      <string>ʊ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2071,6 +2263,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_95">
     <property name="geometry">
@@ -2091,6 +2286,9 @@
      <string>ʏ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2115,6 +2313,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_103">
     <property name="geometry">
@@ -2135,6 +2336,9 @@
      <string>ɵ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2159,6 +2363,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_107">
     <property name="geometry">
@@ -2179,6 +2386,9 @@
      <string>ø</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2203,6 +2413,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_70">
     <property name="geometry">
@@ -2223,6 +2436,9 @@
      <string>ɤ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2247,6 +2463,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_125">
     <property name="geometry">
@@ -2267,6 +2486,9 @@
      <string>ɜ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2291,6 +2513,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_131">
     <property name="geometry">
@@ -2311,6 +2536,9 @@
      <string>ɛ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2335,6 +2563,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_73">
     <property name="geometry">
@@ -2355,6 +2586,9 @@
      <string>ɔ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2379,6 +2613,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_139">
     <property name="geometry">
@@ -2399,6 +2636,9 @@
      <string>ɐ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2423,6 +2663,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_154">
     <property name="geometry">
@@ -2443,6 +2686,9 @@
      <string>ä</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -2467,6 +2713,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_162">
     <property name="geometry">
@@ -2489,6 +2738,9 @@
     <property name="checkable">
      <bool>true</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_163">
     <property name="geometry">
@@ -2509,6 +2761,9 @@
      <string>ɑ</string>
     </property>
     <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="flat">
      <bool>true</bool>
     </property>
    </widget>
@@ -3114,7 +3369,7 @@
    <widget class="QLabel" name="lblCons">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>140</x>
       <y>290</y>
       <width>121</width>
       <height>91</height>
@@ -3130,7 +3385,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>0</x>
@@ -3178,6 +3433,26 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="lblVow">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>390</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Vowels</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>layoutWidget</zorder>
    <zorder>line_29</zorder>
    <zorder>line_27</zorder>
    <zorder>line_28</zorder>
@@ -3248,7 +3523,7 @@
    <zorder>btnRetroflexNasal</zorder>
    <zorder>btnRetroflexFlap</zorder>
    <zorder>btnRetroflexApproximant</zorder>
-   <zorder>btnRetroflexLateralApproximant</zorder>
+   <zorder>btnRetroflexLateralApprox</zorder>
    <zorder>btnPalatalFricative</zorder>
    <zorder>btnPalatalFricative_2</zorder>
    <zorder>btnX</zorder>
@@ -3291,7 +3566,7 @@
    <zorder>pushButton_68</zorder>
    <zorder>pushButton_76</zorder>
    <zorder>pushButton_80</zorder>
-   <zorder>pushButton_84</zorder>
+   <zorder>btnFrontClose</zorder>
    <zorder>pushButton_87</zorder>
    <zorder>pushButton_77</zorder>
    <zorder>pushButton_94</zorder>
@@ -3338,13 +3613,10 @@
    <zorder>label_40</zorder>
    <zorder>label_41</zorder>
    <zorder>label_42</zorder>
-   <zorder>pushButton_8</zorder>
-   <zorder>btnSubmit</zorder>
-   <zorder>listConsonants</zorder>
-   <zorder></zorder>
    <zorder>btnSubmit</zorder>
    <zorder>pushButton_8</zorder>
    <zorder>lblCons</zorder>
+   <zorder>lblVow</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

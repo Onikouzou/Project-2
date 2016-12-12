@@ -16,7 +16,8 @@ class ChooseSounds : public QMainWindow
 public:
     explicit ChooseSounds(QWidget *parent = 0);
     ~ChooseSounds();
-    QString sounds;
+    QString consSounds;
+    QString vowSounds;
 
 private slots:
     void on_btnSubmit_clicked();
@@ -53,7 +54,7 @@ private slots:
     void on_btnRetroflexFlap_toggled(bool checked);
     void on_btnVoicedRetroflexSibilant_toggled(bool checked);
     void on_btnRetroflexApproximant_toggled(bool checked);
-    void on_btnRetroflexLateralApproximant_toggled(bool checked);
+    void on_btnRetroflexLateralApprox_toggled(bool checked);
     void on_btnC_toggled(bool checked);
     void on_btnPalatalFricative_toggled(bool checked);
     void on_btnPalatalStop_toggled(bool checked);
@@ -80,8 +81,14 @@ private slots:
     void on_btnH_toggled(bool checked);
     void on_btnGlottalFricative_toggled(bool checked);
 
+    void on_btnFrontClose_toggled(bool checked);
+
 private:
     Ui::ChooseSounds *ui;
+    void setConsSounds(QString character, bool checked);
+    void setVowSounds(QString character, bool checked);
+    QString masterConsList;
+    QString masterVowList;
 };
 
 #endif // CHOOSESOUNDS_H
