@@ -9,20 +9,28 @@ class Language
 private:
 	std::string name;
 	std::string structure;
-	std::string sounds;
+	std::string consonants, vowels;
+	std::string onsetClusters, codaClusters;
 	Dictionary dictionary;
 
 public:
-    Language();
+	Language();
 	Language(std::string name);
+
 	Dictionary getDictionary() { return dictionary; };
 	std::string getName() { return name; };
-	std::string getSounds() { return sounds; };
+	std::string getConsonants() { return consonants; };
+	std::string getVowels() { return vowels; };
+	std::string getOnsetClusters() { return onsetClusters; };
+	std::string getCodaClusters() { return codaClusters; };
 	std::string getStructure(){ return structure; };
 
-	bool setName(std::string name);
-	bool setSounds(std::string sounds);
-	bool setStructure(std::string structure);
+	bool setName(std::string n);
+	bool setConsonants(std::string c);
+	bool setVowels(std::string v);
+	bool setOnsetClusters(std::string c);
+	bool setCodaClusters(std::string c);
+	bool setStructure(std::string s);
 };
 
 #endif

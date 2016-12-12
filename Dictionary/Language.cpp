@@ -1,26 +1,26 @@
 #include "Language.h"
 
 
-
+// ---------
+// Language
+// ---------
+// Default constructor for the Language object
 Language::Language()
 {
-    name = "";
-    dictionary = Dictionary();
+	name = "Unnamed";
+	dictionary = Dictionary();
 }
 
 // ---------
 // Language
 // ---------
 // Name constructor for the Language object
-// There is not a no-argument constructor because
-// every language needs to be referenced by name in
-// the GUI, even if it's simply "Language01"
-
 Language::Language(std::string n)
 {
 	name = n;
 	dictionary = Dictionary();
 }
+
 
 // --------
 // setName
@@ -37,18 +37,78 @@ bool Language::setName(std::string n)
 }
 
 
-// ----------
-// setSounds
-// ----------
-// Sets the list of permitted sounds in the language
+// --------------
+// setConsonants
+// --------------
+// Sets the list of permitted consonants in the language
 // Sounds are delimeted by a ' ' character
 // ----------------------------------------
 // const char* sounds	The permitted sounds
 //
 // Return bool			Returns true if successful
-bool Language::setSounds(std::string s)
+bool Language::setConsonants(std::string c)
 {
-	sounds = s;
+	consonants = c;
+	return true;
+}
+
+
+// ----------
+// setVowels
+// ----------
+// Sets the list of permitted vowels in the language
+// Sounds are delimeted by a ' ' character
+// ----------------------------------------
+// const char* sounds	The permitted sounds
+//
+// Return bool			Returns true if successful
+bool Language::setVowels(std::string v)
+{
+	vowels = v;
+	return true;
+}
+
+
+bool Language::setOnsetClusters(std::string c)
+{
+	std::string delimiter = "  ";
+	// Split the line into the two parts
+	// From stackOverflow
+	size_t pos = 0;
+	int i = 0;
+	std::string temp = c;
+	while ((pos = temp.find(delimiter)) != std::string::npos)
+	{
+		if (temp.substr(0, pos).length() > 2)
+			return false;
+
+		temp.erase(0, pos + delimiter.length());
+		i++;
+	} // End while
+
+	onsetClusters = c;
+	return true;
+}
+
+
+bool Language::setCodaClusters(std::string c)
+{
+	std::string delimiter = "  ";
+	// Split the line into the two parts
+	// From stackOverflow
+	size_t pos = 0;
+	int i = 0;
+	std::string temp = c;
+	while ((pos = temp.find(delimiter)) != std::string::npos)
+	{
+		if (temp.substr(0, pos).length() > 2)
+			return false;
+
+		temp.erase(0, pos + delimiter.length());
+		i++;
+	} // End while
+
+	codaClusters = c;
 	return true;
 }
 
@@ -63,6 +123,17 @@ bool Language::setSounds(std::string s)
 // Return bool				Returns true if successful
 bool Language::setStructure(std::string s)
 {
+	for (int i = 0; i < s.length(); i++)
+	{
+		switch (s[i])
+		{
+		case 'v':
+		case 'V':
+		case 'c':
+		case 'C': { break; }
+		default: { return false; }
+		}
+	}
 	structure = s;
 	return true;
 }
