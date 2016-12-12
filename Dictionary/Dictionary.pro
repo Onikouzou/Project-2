@@ -18,15 +18,18 @@ SOURCES += main.cpp\
     customdialog.cpp \
     Language.cpp \
     Dictionary.cpp \
-    choosesounds.cpp
+    choosesounds.cpp \
+    choosestructure.cpp
 
 HEADERS  += mainmenu.h \
     existinglanguage.h \
     customdialog.h \
     Language.h \
     Dictionary.h \
-    choosesounds.h
+    choosesounds.h \
+    choosestructure.h
 
 FORMS    += mainmenu.ui \
     existinglanguage.ui \
-    choosesounds.ui
+    choosesounds.ui \
+    choosestructure.ui

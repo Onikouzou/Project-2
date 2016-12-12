@@ -7,6 +7,7 @@
 #include <customdialog.h>
 #include "Language.h"
 #include "choosesounds.h"
+#include "choosestructure.h"
 
 namespace Ui {
 class ExistingLanguage;
@@ -18,7 +19,6 @@ class ExistingLanguage : public QMainWindow
 
 public:
     explicit ExistingLanguage(QWidget *parent = 0);
-//    ExistingLanguage(QWidget *parent = 0, std::string name);
     ~ExistingLanguage();
 
 private slots:
@@ -36,6 +36,7 @@ private:
     Ui::ExistingLanguage *ui;
     Language lang;
     ChooseSounds *sounds;
+    chooseStructure *structure;
 
 };
 
