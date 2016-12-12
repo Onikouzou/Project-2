@@ -1,6 +1,13 @@
 #include "Language.h"
 
 
+
+Language::Language()
+{
+    name = "";
+    dictionary = Dictionary();
+}
+
 // ---------
 // Language
 // ---------
@@ -8,12 +15,12 @@
 // There is not a no-argument constructor because
 // every language needs to be referenced by name in
 // the GUI, even if it's simply "Language01"
+
 Language::Language(std::string n)
 {
 	name = n;
 	dictionary = Dictionary();
 }
-
 
 // --------
 // setName

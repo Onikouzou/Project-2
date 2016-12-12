@@ -741,7 +741,6 @@ int CustomDialog::addVSpacer(int minHeight)
   return elements.size();
 }
 
-
 //------------------------
 //-- Begins a new group box to the next row of the dialog. All new elements added after
 //-- this will be placed inside this box. "endGroupBox" must be called to end the box.

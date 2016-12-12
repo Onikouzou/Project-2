@@ -15,11 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainmenu.cpp \
     existinglanguage.cpp \
-    customdialog.cpp
+    customdialog.cpp \
+    Language.cpp \
+    Dictionary.cpp \
+    choosesounds.cpp
 
 HEADERS  += mainmenu.h \
     existinglanguage.h \
-    customdialog.h
+    customdialog.h \
+    Language.h \
+    Dictionary.h \
+    choosesounds.h
 
 FORMS    += mainmenu.ui \
-    existinglanguage.ui
+    existinglanguage.ui \
+    choosesounds.ui

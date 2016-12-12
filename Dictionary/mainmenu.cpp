@@ -10,6 +10,7 @@
 #include <QStringList>
 #include <QMessageBox>
 #include <QString>
+#include "Language.h"
 
 // global variables
 QString name;
@@ -31,10 +32,6 @@ void MainMenu::on_btnCreateLanguage_clicked()
     name = QInputDialog::getText(this, "New Language",
             "Enter name of new language: ",
             QLineEdit::Normal);
-
-//    existing = new ExistingLanguage(this);
-//    existing->show();
-//    MainMenu::hide();
 }
 
 void MainMenu::on_btnLoadLanguage_clicked()
@@ -43,9 +40,6 @@ void MainMenu::on_btnLoadLanguage_clicked()
     QInputDialog load;
     QStringList nameList;
     nameList << name;
-    nameList << "Option 2";
-    nameList << "Option 3";
-    nameList << "Option 4";
 
     // create the dialog box for displaying the list of existing languages
     load.setOptions(QInputDialog::UseListViewForComboBoxItems);

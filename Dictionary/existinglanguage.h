@@ -5,6 +5,8 @@
 #include <QInputDialog>
 #include <QCheckBox>
 #include <customdialog.h>
+#include "Language.h"
+#include "choosesounds.h"
 
 namespace Ui {
 class ExistingLanguage;
@@ -16,6 +18,7 @@ class ExistingLanguage : public QMainWindow
 
 public:
     explicit ExistingLanguage(QWidget *parent = 0);
+//    ExistingLanguage(QWidget *parent = 0, std::string name);
     ~ExistingLanguage();
 
 private slots:
@@ -31,7 +34,9 @@ private slots:
 
 private:
     Ui::ExistingLanguage *ui;
-    CustomDialog *sounds;
+    Language lang;
+    ChooseSounds *sounds;
+
 };
 
 #endif // EXISTINGLANGUAGE_H

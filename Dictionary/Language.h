@@ -13,8 +13,8 @@ private:
 	Dictionary dictionary;
 
 public:
+    Language();
 	Language(std::string name);
-
 	Dictionary getDictionary() { return dictionary; };
 	std::string getName() { return name; };
 	std::string getSounds() { return sounds; };
