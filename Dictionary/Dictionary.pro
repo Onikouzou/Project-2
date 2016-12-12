@@ -19,7 +19,12 @@ SOURCES += main.cpp\
     Language.cpp \
     Dictionary.cpp \
     choosesounds.cpp \
+<<<<<<< HEAD
     choosestructure.cpp
+=======
+    SoundHelper.cpp \
+    WordGenerator.cpp
+>>>>>>> origin/master
 
 HEADERS  += mainmenu.h \
     existinglanguage.h \
