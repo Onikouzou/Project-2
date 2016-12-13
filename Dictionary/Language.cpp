@@ -8,6 +8,11 @@
 Language::Language()
 {
 	name = "Unnamed";
+    structure = "";
+    consonants = "";
+    vowels = "";
+    onsetClusters = "";
+    codaClusters = "";
 	dictionary = Dictionary();
 }
 
@@ -15,7 +20,7 @@ Language::Language()
 // Language
 // ---------
 // Name constructor for the Language object
-Language::Language(std::string n)
+Language::Language(QString n)
 {
 	name = n;
 	dictionary = Dictionary();
@@ -30,7 +35,7 @@ Language::Language(std::string n)
 // const char* name		The new name
 //
 // Return bool			Returns true if successful
-bool Language::setName(std::string n)
+bool Language::setName(QString n)
 {
 	name = n;
 	return true;
@@ -46,7 +51,7 @@ bool Language::setName(std::string n)
 // const char* sounds	The permitted sounds
 //
 // Return bool			Returns true if successful
-bool Language::setConsonants(std::string c)
+bool Language::setConsonants(QString c)
 {
 	consonants = c;
 	return true;
@@ -62,51 +67,51 @@ bool Language::setConsonants(std::string c)
 // const char* sounds	The permitted sounds
 //
 // Return bool			Returns true if successful
-bool Language::setVowels(std::string v)
+bool Language::setVowels(QString v)
 {
 	vowels = v;
 	return true;
 }
 
 
-bool Language::setOnsetClusters(std::string c)
+bool Language::setOnsetClusters(QString c)
 {
-	std::string delimiter = "  ";
+//	QString delimiter = "  ";
 	// Split the line into the two parts
 	// From stackOverflow
-	size_t pos = 0;
-	int i = 0;
-	std::string temp = c;
-	while ((pos = temp.find(delimiter)) != std::string::npos)
-	{
-		if (temp.substr(0, pos).length() > 2)
-			return false;
+//	size_t pos = 0;
+//	int i = 0;
+//  QString temp = c;
+//    while ((pos = temp.indexOf(delimiter)) != NULL)
+//	{
+//		if (temp.substr(0, pos).length() > 2)
+//			return false;
 
-		temp.erase(0, pos + delimiter.length());
-		i++;
-	} // End while
+//        temp.remove(0, pos + delimiter.length());
+//		i++;
+//	} // End while
 
 	onsetClusters = c;
 	return true;
 }
 
 
-bool Language::setCodaClusters(std::string c)
+bool Language::setCodaClusters(QString c)
 {
-	std::string delimiter = "  ";
+//  QString delimiter = "  ";
 	// Split the line into the two parts
 	// From stackOverflow
-	size_t pos = 0;
-	int i = 0;
-	std::string temp = c;
-	while ((pos = temp.find(delimiter)) != std::string::npos)
-	{
-		if (temp.substr(0, pos).length() > 2)
-			return false;
+//	size_t pos = 0;
+//	int i = 0;
+//  QString temp = c;
+//    while ((pos = temp.find(delimiter)) != QString::npos)
+//	{
+//		if (temp.substr(0, pos).length() > 2)
+//			return false;
 
-		temp.erase(0, pos + delimiter.length());
-		i++;
-	} // End while
+//        temp.remove(0, pos + delimiter.length());
+//		i++;
+//	} // End while
 
 	codaClusters = c;
 	return true;
@@ -121,18 +126,12 @@ bool Language::setCodaClusters(std::string c)
 // const char* structure	The permitted syllabic structure
 //
 // Return bool				Returns true if successful
-bool Language::setStructure(std::string s)
+bool Language::setStructure(QString s)
 {
 	for (int i = 0; i < s.length(); i++)
 	{
-		switch (s[i])
-		{
-		case 'v':
-		case 'V':
-		case 'c':
-		case 'C': { break; }
-		default: { return false; }
-		}
+        if (s.mid(i, 1) != "v" && s.mid(i, 1) != "V" && s.mid(i, 1) != "c" && s.mid(i, 1) != "C")
+            return false;
 	}
 	structure = s;
 	return true;

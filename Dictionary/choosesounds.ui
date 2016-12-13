@@ -25,6 +25,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -53,6 +54,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -78,6 +80,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -103,6 +106,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -128,6 +132,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -153,6 +158,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -178,6 +184,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -203,6 +210,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -228,6 +236,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -253,6 +262,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -278,6 +288,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -303,6 +314,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -328,6 +340,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -353,6 +366,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -378,6 +392,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -403,6 +418,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -428,6 +444,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -453,6 +470,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -478,6 +496,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -503,6 +522,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -528,6 +548,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -553,6 +574,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -578,6 +600,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -603,6 +626,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -628,6 +652,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -653,6 +678,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -678,6 +704,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -703,6 +730,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -728,6 +756,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -753,6 +782,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -778,6 +808,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -803,6 +834,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -828,6 +860,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -853,6 +886,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -878,6 +912,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -903,6 +938,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -928,6 +964,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -953,6 +990,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -978,6 +1016,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1003,6 +1042,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1028,6 +1068,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1053,6 +1094,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1078,6 +1120,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1103,6 +1146,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1128,6 +1172,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1153,6 +1198,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1178,6 +1224,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1203,6 +1250,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1228,6 +1276,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1253,6 +1302,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1278,6 +1328,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1303,6 +1354,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1328,6 +1380,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1353,6 +1406,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1378,6 +1432,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1403,6 +1458,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1428,6 +1484,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1453,6 +1510,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2067,7 +2125,7 @@
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_61">
+   <widget class="QPushButton" name="btnBackClose2">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -2078,6 +2136,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2092,7 +2151,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_68">
+   <widget class="QPushButton" name="btnBackClose">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -2103,6 +2162,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2117,7 +2177,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_76">
+   <widget class="QPushButton" name="btnCentralClose">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -2128,6 +2188,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2142,7 +2203,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_80">
+   <widget class="QPushButton" name="btnCentralClose2">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -2153,6 +2214,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2178,6 +2240,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2192,7 +2255,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_87">
+   <widget class="QPushButton" name="btnFrontClose2">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -2203,6 +2266,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2217,7 +2281,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_77">
+   <widget class="QPushButton" name="btnNearBackNearClose">
     <property name="geometry">
      <rect>
       <x>790</x>
@@ -2228,6 +2292,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2242,7 +2307,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_94">
+   <widget class="QPushButton" name="btnNearFrontNearClose">
     <property name="geometry">
      <rect>
       <x>470</x>
@@ -2253,6 +2318,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2267,7 +2333,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_95">
+   <widget class="QPushButton" name="btnNearFrontNearClose2">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -2278,6 +2344,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2292,7 +2359,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_99">
+   <widget class="QPushButton" name="btnCentralCloseMid">
     <property name="geometry">
      <rect>
       <x>630</x>
@@ -2303,6 +2370,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2317,7 +2385,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_103">
+   <widget class="QPushButton" name="btnNearBackCloseMid">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -2328,6 +2396,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2342,7 +2411,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_104">
+   <widget class="QPushButton" name="btnFrontCloseMid">
     <property name="geometry">
      <rect>
       <x>430</x>
@@ -2353,6 +2422,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2367,7 +2437,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_107">
+   <widget class="QPushButton" name="btnNearFrontCloseMid">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -2378,6 +2448,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2392,7 +2463,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_65">
+   <widget class="QPushButton" name="btnBackCloseMid2">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -2403,6 +2474,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2417,7 +2489,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_70">
+   <widget class="QPushButton" name="btnBackCloseMid">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -2428,6 +2500,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2442,7 +2515,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_113">
+   <widget class="QPushButton" name="btnCentralMid">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -2453,6 +2526,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2467,7 +2541,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_125">
+   <widget class="QPushButton" name="btnCentralOpenMid2">
     <property name="geometry">
      <rect>
       <x>670</x>
@@ -2478,6 +2552,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2492,7 +2567,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_126">
+   <widget class="QPushButton" name="btnNearBackOpenMid">
     <property name="geometry">
      <rect>
       <x>750</x>
@@ -2503,6 +2578,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2517,7 +2593,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_131">
+   <widget class="QPushButton" name="btnNearFrontOpenMid">
     <property name="geometry">
      <rect>
       <x>510</x>
@@ -2528,6 +2604,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2542,7 +2619,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_132">
+   <widget class="QPushButton" name="btnCentralOpenMid">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -2553,6 +2630,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2567,7 +2645,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_73">
+   <widget class="QPushButton" name="btnBackOpenMid2">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -2578,6 +2656,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2592,7 +2671,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_74">
+   <widget class="QPushButton" name="btnBackOpenMid">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -2603,6 +2682,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2617,7 +2697,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_139">
+   <widget class="QPushButton" name="btnNearBackNearOpen">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -2628,6 +2708,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2642,7 +2723,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_149">
+   <widget class="QPushButton" name="btnNearFrontNearOpen">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -2653,6 +2734,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2667,7 +2749,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_154">
+   <widget class="QPushButton" name="btnNearBackOpen">
     <property name="geometry">
      <rect>
       <x>710</x>
@@ -2678,6 +2760,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2692,7 +2775,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_160">
+   <widget class="QPushButton" name="btnCentralOpen">
     <property name="geometry">
      <rect>
       <x>590</x>
@@ -2703,6 +2786,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2717,7 +2801,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_162">
+   <widget class="QPushButton" name="btnBackOpen2">
     <property name="geometry">
      <rect>
       <x>910</x>
@@ -2728,6 +2812,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -2742,7 +2827,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_163">
+   <widget class="QPushButton" name="btnBackOpen">
     <property name="geometry">
      <rect>
       <x>830</x>
@@ -2753,6 +2838,7 @@
     </property>
     <property name="font">
      <font>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -3350,8 +3436,8 @@
    <widget class="QPushButton" name="btnSubmit">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>460</y>
+      <x>30</x>
+      <y>490</y>
       <width>81</width>
       <height>23</height>
      </rect>
@@ -3369,90 +3455,99 @@
    <widget class="QLabel" name="lblCons">
     <property name="geometry">
      <rect>
+      <x>10</x>
+      <y>300</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblVow">
+    <property name="geometry">
+     <rect>
       <x>140</x>
-      <y>290</y>
+      <y>300</y>
       <width>121</width>
-      <height>91</height>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_45">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>119</width>
+      <height>13</height>
      </rect>
     </property>
     <property name="text">
      <string>Consonants</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QLabel" name="label_44">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>130</x>
       <y>280</y>
-      <width>121</width>
-      <height>258</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="label_43">
-       <property name="text">
-        <string>Consonants</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QListWidget" name="listConsonants"/>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_44">
-       <property name="text">
-        <string>Vowels</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QListWidget" name="listVowels"/>
-     </item>
-     <item>
-      <widget class="QPushButton" name="btnReset">
-       <property name="text">
-        <string>Reset</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QLabel" name="lblVow">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>390</y>
-      <width>121</width>
-      <height>61</height>
+      <width>119</width>
+      <height>13</height>
      </rect>
     </property>
     <property name="text">
      <string>Vowels</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <zorder>layoutWidget</zorder>
+   <widget class="QPushButton" name="btnReset">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>370</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line_33">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>300</y>
+      <width>3</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
    <zorder>line_29</zorder>
    <zorder>line_27</zorder>
    <zorder>line_28</zorder>
@@ -3562,34 +3657,34 @@
    <zorder>label_17</zorder>
    <zorder>label_18</zorder>
    <zorder>label_19</zorder>
-   <zorder>pushButton_61</zorder>
-   <zorder>pushButton_68</zorder>
-   <zorder>pushButton_76</zorder>
-   <zorder>pushButton_80</zorder>
+   <zorder>btnBackClose2</zorder>
+   <zorder>btnBackClose</zorder>
+   <zorder>btnCentralClose</zorder>
+   <zorder>btnCentralClose2</zorder>
    <zorder>btnFrontClose</zorder>
-   <zorder>pushButton_87</zorder>
-   <zorder>pushButton_77</zorder>
-   <zorder>pushButton_94</zorder>
-   <zorder>pushButton_95</zorder>
-   <zorder>pushButton_99</zorder>
-   <zorder>pushButton_103</zorder>
-   <zorder>pushButton_104</zorder>
-   <zorder>pushButton_107</zorder>
-   <zorder>pushButton_65</zorder>
-   <zorder>pushButton_70</zorder>
-   <zorder>pushButton_113</zorder>
-   <zorder>pushButton_125</zorder>
-   <zorder>pushButton_126</zorder>
-   <zorder>pushButton_131</zorder>
-   <zorder>pushButton_132</zorder>
-   <zorder>pushButton_73</zorder>
-   <zorder>pushButton_74</zorder>
-   <zorder>pushButton_139</zorder>
-   <zorder>pushButton_149</zorder>
-   <zorder>pushButton_154</zorder>
-   <zorder>pushButton_160</zorder>
-   <zorder>pushButton_162</zorder>
-   <zorder>pushButton_163</zorder>
+   <zorder>btnFrontClose2</zorder>
+   <zorder>btnNearBackNearClose</zorder>
+   <zorder>btnNearFrontNearClose</zorder>
+   <zorder>btnNearFrontNearClose2</zorder>
+   <zorder>btnCentralCloseMid</zorder>
+   <zorder>btnNearBackCloseMid</zorder>
+   <zorder>btnFrontCloseMid</zorder>
+   <zorder>btnNearFrontCloseMid</zorder>
+   <zorder>btnBackCloseMid2</zorder>
+   <zorder>btnBackCloseMid</zorder>
+   <zorder>btnCentralMid</zorder>
+   <zorder>btnCentralOpenMid2</zorder>
+   <zorder>btnNearBackOpenMid</zorder>
+   <zorder>btnNearFrontOpenMid</zorder>
+   <zorder>btnCentralOpenMid</zorder>
+   <zorder>btnBackOpenMid2</zorder>
+   <zorder>btnBackOpenMid</zorder>
+   <zorder>btnNearBackNearOpen</zorder>
+   <zorder>btnNearFrontNearOpen</zorder>
+   <zorder>btnNearBackOpen</zorder>
+   <zorder>btnCentralOpen</zorder>
+   <zorder>btnBackOpen2</zorder>
+   <zorder>btnBackOpen</zorder>
    <zorder>label_20</zorder>
    <zorder>label_21</zorder>
    <zorder>label_22</zorder>
@@ -3617,6 +3712,10 @@
    <zorder>pushButton_8</zorder>
    <zorder>lblCons</zorder>
    <zorder>lblVow</zorder>
+   <zorder>label_45</zorder>
+   <zorder>label_44</zorder>
+   <zorder>btnReset</zorder>
+   <zorder>line_33</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -3631,22 +3730,5 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>btnP</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>listConsonants</receiver>
-   <slot>scrollToBottom()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>87</x>
-     <y>69</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>98</x>
-     <y>388</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

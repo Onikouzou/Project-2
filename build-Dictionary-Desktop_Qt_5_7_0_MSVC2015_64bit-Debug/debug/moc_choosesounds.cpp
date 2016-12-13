@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_ChooseSounds_t {
-    QByteArrayData data[64];
-    char stringdata0[1562];
+    QByteArrayData data[91];
+    char stringdata0[2328];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -92,7 +92,34 @@ QT_MOC_LITERAL(59, 1428, 35), // "on_btnPharyngealFricative_2_t..."
 QT_MOC_LITERAL(60, 1464, 25), // "on_btnGlottalStop_toggled"
 QT_MOC_LITERAL(61, 1490, 15), // "on_btnH_toggled"
 QT_MOC_LITERAL(62, 1506, 30), // "on_btnGlottalFricative_toggled"
-QT_MOC_LITERAL(63, 1537, 24) // "on_btnFrontClose_toggled"
+QT_MOC_LITERAL(63, 1537, 24), // "on_btnFrontClose_toggled"
+QT_MOC_LITERAL(64, 1562, 25), // "on_btnFrontClose2_toggled"
+QT_MOC_LITERAL(65, 1588, 27), // "on_btnFrontCloseMid_toggled"
+QT_MOC_LITERAL(66, 1616, 32), // "on_btnNearFrontNearClose_toggled"
+QT_MOC_LITERAL(67, 1649, 33), // "on_btnNearFrontNearClose2_tog..."
+QT_MOC_LITERAL(68, 1683, 31), // "on_btnNearFrontCloseMid_toggled"
+QT_MOC_LITERAL(69, 1715, 30), // "on_btnNearFrontOpenMid_toggled"
+QT_MOC_LITERAL(70, 1746, 31), // "on_btnNearFrontNearOpen_toggled"
+QT_MOC_LITERAL(71, 1778, 26), // "on_btnCentralClose_toggled"
+QT_MOC_LITERAL(72, 1805, 27), // "on_btnCentralClose2_toggled"
+QT_MOC_LITERAL(73, 1833, 29), // "on_btnCentralCloseMid_toggled"
+QT_MOC_LITERAL(74, 1863, 24), // "on_btnCentralMid_toggled"
+QT_MOC_LITERAL(75, 1888, 28), // "on_btnCentralOpenMid_toggled"
+QT_MOC_LITERAL(76, 1917, 29), // "on_btnCentralOpenMid2_toggled"
+QT_MOC_LITERAL(77, 1947, 25), // "on_btnCentralOpen_toggled"
+QT_MOC_LITERAL(78, 1973, 31), // "on_btnNearBackNearClose_toggled"
+QT_MOC_LITERAL(79, 2005, 30), // "on_btnNearBackCloseMid_toggled"
+QT_MOC_LITERAL(80, 2036, 29), // "on_btnNearBackOpenMid_toggled"
+QT_MOC_LITERAL(81, 2066, 30), // "on_btnNearBackNearOpen_toggled"
+QT_MOC_LITERAL(82, 2097, 26), // "on_btnNearBackOpen_toggled"
+QT_MOC_LITERAL(83, 2124, 23), // "on_btnBackClose_toggled"
+QT_MOC_LITERAL(84, 2148, 24), // "on_btnBackClose2_toggled"
+QT_MOC_LITERAL(85, 2173, 26), // "on_btnBackCloseMid_toggled"
+QT_MOC_LITERAL(86, 2200, 27), // "on_btnBackCloseMid2_toggled"
+QT_MOC_LITERAL(87, 2228, 25), // "on_btnBackOpenMid_toggled"
+QT_MOC_LITERAL(88, 2254, 26), // "on_btnBackOpenMid2_toggled"
+QT_MOC_LITERAL(89, 2281, 22), // "on_btnBackOpen_toggled"
+QT_MOC_LITERAL(90, 2304, 23) // "on_btnBackOpen2_toggled"
 
     },
     "ChooseSounds\0on_btnSubmit_clicked\0\0"
@@ -140,7 +167,33 @@ QT_MOC_LITERAL(63, 1537, 24) // "on_btnFrontClose_toggled"
     "on_btnPharyngealFricative_2_toggled\0"
     "on_btnGlottalStop_toggled\0on_btnH_toggled\0"
     "on_btnGlottalFricative_toggled\0"
-    "on_btnFrontClose_toggled"
+    "on_btnFrontClose_toggled\0"
+    "on_btnFrontClose2_toggled\0"
+    "on_btnFrontCloseMid_toggled\0"
+    "on_btnNearFrontNearClose_toggled\0"
+    "on_btnNearFrontNearClose2_toggled\0"
+    "on_btnNearFrontCloseMid_toggled\0"
+    "on_btnNearFrontOpenMid_toggled\0"
+    "on_btnNearFrontNearOpen_toggled\0"
+    "on_btnCentralClose_toggled\0"
+    "on_btnCentralClose2_toggled\0"
+    "on_btnCentralCloseMid_toggled\0"
+    "on_btnCentralMid_toggled\0"
+    "on_btnCentralOpenMid_toggled\0"
+    "on_btnCentralOpenMid2_toggled\0"
+    "on_btnCentralOpen_toggled\0"
+    "on_btnNearBackNearClose_toggled\0"
+    "on_btnNearBackCloseMid_toggled\0"
+    "on_btnNearBackOpenMid_toggled\0"
+    "on_btnNearBackNearOpen_toggled\0"
+    "on_btnNearBackOpen_toggled\0"
+    "on_btnBackClose_toggled\0"
+    "on_btnBackClose2_toggled\0"
+    "on_btnBackCloseMid_toggled\0"
+    "on_btnBackCloseMid2_toggled\0"
+    "on_btnBackOpenMid_toggled\0"
+    "on_btnBackOpenMid2_toggled\0"
+    "on_btnBackOpen_toggled\0on_btnBackOpen2_toggled"
 };
 #undef QT_MOC_LITERAL
 
@@ -150,7 +203,7 @@ static const uint qt_meta_data_ChooseSounds[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      61,   14, // methods
+      88,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -158,67 +211,94 @@ static const uint qt_meta_data_ChooseSounds[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,  319,    2, 0x08 /* Private */,
-       3,    1,  320,    2, 0x08 /* Private */,
-       5,    1,  323,    2, 0x08 /* Private */,
-       6,    1,  326,    2, 0x08 /* Private */,
-       7,    1,  329,    2, 0x08 /* Private */,
-       8,    1,  332,    2, 0x08 /* Private */,
-       9,    1,  335,    2, 0x08 /* Private */,
-      10,    1,  338,    2, 0x08 /* Private */,
-      11,    1,  341,    2, 0x08 /* Private */,
-      12,    1,  344,    2, 0x08 /* Private */,
-      13,    1,  347,    2, 0x08 /* Private */,
-      14,    1,  350,    2, 0x08 /* Private */,
-      15,    1,  353,    2, 0x08 /* Private */,
-      16,    1,  356,    2, 0x08 /* Private */,
-      17,    1,  359,    2, 0x08 /* Private */,
-      18,    1,  362,    2, 0x08 /* Private */,
-      19,    1,  365,    2, 0x08 /* Private */,
-      20,    1,  368,    2, 0x08 /* Private */,
-      21,    1,  371,    2, 0x08 /* Private */,
-      22,    1,  374,    2, 0x08 /* Private */,
-      23,    0,  377,    2, 0x08 /* Private */,
-      24,    1,  378,    2, 0x08 /* Private */,
-      25,    1,  381,    2, 0x08 /* Private */,
-      26,    1,  384,    2, 0x08 /* Private */,
-      27,    1,  387,    2, 0x08 /* Private */,
-      28,    1,  390,    2, 0x08 /* Private */,
-      29,    1,  393,    2, 0x08 /* Private */,
-      30,    1,  396,    2, 0x08 /* Private */,
-      31,    1,  399,    2, 0x08 /* Private */,
-      32,    1,  402,    2, 0x08 /* Private */,
-      33,    1,  405,    2, 0x08 /* Private */,
-      34,    1,  408,    2, 0x08 /* Private */,
-      35,    1,  411,    2, 0x08 /* Private */,
-      36,    1,  414,    2, 0x08 /* Private */,
-      37,    1,  417,    2, 0x08 /* Private */,
-      38,    1,  420,    2, 0x08 /* Private */,
-      39,    1,  423,    2, 0x08 /* Private */,
-      40,    1,  426,    2, 0x08 /* Private */,
-      41,    1,  429,    2, 0x08 /* Private */,
-      42,    1,  432,    2, 0x08 /* Private */,
-      43,    1,  435,    2, 0x08 /* Private */,
-      44,    1,  438,    2, 0x08 /* Private */,
-      45,    1,  441,    2, 0x08 /* Private */,
-      46,    1,  444,    2, 0x08 /* Private */,
-      47,    1,  447,    2, 0x08 /* Private */,
-      48,    1,  450,    2, 0x08 /* Private */,
-      49,    1,  453,    2, 0x08 /* Private */,
-      50,    1,  456,    2, 0x08 /* Private */,
-      51,    1,  459,    2, 0x08 /* Private */,
-      52,    1,  462,    2, 0x08 /* Private */,
-      53,    1,  465,    2, 0x08 /* Private */,
-      54,    1,  468,    2, 0x08 /* Private */,
-      55,    1,  471,    2, 0x08 /* Private */,
-      56,    1,  474,    2, 0x08 /* Private */,
-      57,    1,  477,    2, 0x08 /* Private */,
-      58,    1,  480,    2, 0x08 /* Private */,
-      59,    1,  483,    2, 0x08 /* Private */,
-      60,    1,  486,    2, 0x08 /* Private */,
-      61,    1,  489,    2, 0x08 /* Private */,
-      62,    1,  492,    2, 0x08 /* Private */,
-      63,    1,  495,    2, 0x08 /* Private */,
+       1,    0,  454,    2, 0x08 /* Private */,
+       3,    1,  455,    2, 0x08 /* Private */,
+       5,    1,  458,    2, 0x08 /* Private */,
+       6,    1,  461,    2, 0x08 /* Private */,
+       7,    1,  464,    2, 0x08 /* Private */,
+       8,    1,  467,    2, 0x08 /* Private */,
+       9,    1,  470,    2, 0x08 /* Private */,
+      10,    1,  473,    2, 0x08 /* Private */,
+      11,    1,  476,    2, 0x08 /* Private */,
+      12,    1,  479,    2, 0x08 /* Private */,
+      13,    1,  482,    2, 0x08 /* Private */,
+      14,    1,  485,    2, 0x08 /* Private */,
+      15,    1,  488,    2, 0x08 /* Private */,
+      16,    1,  491,    2, 0x08 /* Private */,
+      17,    1,  494,    2, 0x08 /* Private */,
+      18,    1,  497,    2, 0x08 /* Private */,
+      19,    1,  500,    2, 0x08 /* Private */,
+      20,    1,  503,    2, 0x08 /* Private */,
+      21,    1,  506,    2, 0x08 /* Private */,
+      22,    1,  509,    2, 0x08 /* Private */,
+      23,    0,  512,    2, 0x08 /* Private */,
+      24,    1,  513,    2, 0x08 /* Private */,
+      25,    1,  516,    2, 0x08 /* Private */,
+      26,    1,  519,    2, 0x08 /* Private */,
+      27,    1,  522,    2, 0x08 /* Private */,
+      28,    1,  525,    2, 0x08 /* Private */,
+      29,    1,  528,    2, 0x08 /* Private */,
+      30,    1,  531,    2, 0x08 /* Private */,
+      31,    1,  534,    2, 0x08 /* Private */,
+      32,    1,  537,    2, 0x08 /* Private */,
+      33,    1,  540,    2, 0x08 /* Private */,
+      34,    1,  543,    2, 0x08 /* Private */,
+      35,    1,  546,    2, 0x08 /* Private */,
+      36,    1,  549,    2, 0x08 /* Private */,
+      37,    1,  552,    2, 0x08 /* Private */,
+      38,    1,  555,    2, 0x08 /* Private */,
+      39,    1,  558,    2, 0x08 /* Private */,
+      40,    1,  561,    2, 0x08 /* Private */,
+      41,    1,  564,    2, 0x08 /* Private */,
+      42,    1,  567,    2, 0x08 /* Private */,
+      43,    1,  570,    2, 0x08 /* Private */,
+      44,    1,  573,    2, 0x08 /* Private */,
+      45,    1,  576,    2, 0x08 /* Private */,
+      46,    1,  579,    2, 0x08 /* Private */,
+      47,    1,  582,    2, 0x08 /* Private */,
+      48,    1,  585,    2, 0x08 /* Private */,
+      49,    1,  588,    2, 0x08 /* Private */,
+      50,    1,  591,    2, 0x08 /* Private */,
+      51,    1,  594,    2, 0x08 /* Private */,
+      52,    1,  597,    2, 0x08 /* Private */,
+      53,    1,  600,    2, 0x08 /* Private */,
+      54,    1,  603,    2, 0x08 /* Private */,
+      55,    1,  606,    2, 0x08 /* Private */,
+      56,    1,  609,    2, 0x08 /* Private */,
+      57,    1,  612,    2, 0x08 /* Private */,
+      58,    1,  615,    2, 0x08 /* Private */,
+      59,    1,  618,    2, 0x08 /* Private */,
+      60,    1,  621,    2, 0x08 /* Private */,
+      61,    1,  624,    2, 0x08 /* Private */,
+      62,    1,  627,    2, 0x08 /* Private */,
+      63,    1,  630,    2, 0x08 /* Private */,
+      64,    1,  633,    2, 0x08 /* Private */,
+      65,    1,  636,    2, 0x08 /* Private */,
+      66,    1,  639,    2, 0x08 /* Private */,
+      67,    1,  642,    2, 0x08 /* Private */,
+      68,    1,  645,    2, 0x08 /* Private */,
+      69,    1,  648,    2, 0x08 /* Private */,
+      70,    1,  651,    2, 0x08 /* Private */,
+      71,    1,  654,    2, 0x08 /* Private */,
+      72,    1,  657,    2, 0x08 /* Private */,
+      73,    1,  660,    2, 0x08 /* Private */,
+      74,    1,  663,    2, 0x08 /* Private */,
+      75,    1,  666,    2, 0x08 /* Private */,
+      76,    1,  669,    2, 0x08 /* Private */,
+      77,    1,  672,    2, 0x08 /* Private */,
+      78,    1,  675,    2, 0x08 /* Private */,
+      79,    1,  678,    2, 0x08 /* Private */,
+      80,    1,  681,    2, 0x08 /* Private */,
+      81,    1,  684,    2, 0x08 /* Private */,
+      82,    1,  687,    2, 0x08 /* Private */,
+      83,    1,  690,    2, 0x08 /* Private */,
+      84,    1,  693,    2, 0x08 /* Private */,
+      85,    1,  696,    2, 0x08 /* Private */,
+      86,    1,  699,    2, 0x08 /* Private */,
+      87,    1,  702,    2, 0x08 /* Private */,
+      88,    1,  705,    2, 0x08 /* Private */,
+      89,    1,  708,    2, 0x08 /* Private */,
+      90,    1,  711,    2, 0x08 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
@@ -242,6 +322,33 @@ static const uint qt_meta_data_ChooseSounds[] = {
     QMetaType::Void, QMetaType::Bool,    4,
     QMetaType::Void, QMetaType::Bool,    4,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
+    QMetaType::Void, QMetaType::Bool,    4,
     QMetaType::Void, QMetaType::Bool,    4,
     QMetaType::Void, QMetaType::Bool,    4,
     QMetaType::Void, QMetaType::Bool,    4,
@@ -353,6 +460,33 @@ void ChooseSounds::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 58: _t->on_btnH_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 59: _t->on_btnGlottalFricative_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         case 60: _t->on_btnFrontClose_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 61: _t->on_btnFrontClose2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 62: _t->on_btnFrontCloseMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 63: _t->on_btnNearFrontNearClose_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 64: _t->on_btnNearFrontNearClose2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 65: _t->on_btnNearFrontCloseMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 66: _t->on_btnNearFrontOpenMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 67: _t->on_btnNearFrontNearOpen_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 68: _t->on_btnCentralClose_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 69: _t->on_btnCentralClose2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 70: _t->on_btnCentralCloseMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 71: _t->on_btnCentralMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 72: _t->on_btnCentralOpenMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 73: _t->on_btnCentralOpenMid2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 74: _t->on_btnCentralOpen_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 75: _t->on_btnNearBackNearClose_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 76: _t->on_btnNearBackCloseMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 77: _t->on_btnNearBackOpenMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 78: _t->on_btnNearBackNearOpen_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 79: _t->on_btnNearBackOpen_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 80: _t->on_btnBackClose_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 81: _t->on_btnBackClose2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 82: _t->on_btnBackCloseMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 83: _t->on_btnBackCloseMid2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 84: _t->on_btnBackOpenMid_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 85: _t->on_btnBackOpenMid2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 86: _t->on_btnBackOpen_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 87: _t->on_btnBackOpen2_toggled((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -383,13 +517,13 @@ int ChooseSounds::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 61)
+        if (_id < 88)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 61;
+        _id -= 88;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 61)
+        if (_id < 88)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 61;
+        _id -= 88;
     }
     return _id;
 }

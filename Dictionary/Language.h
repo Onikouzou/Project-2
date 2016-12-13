@@ -1,4 +1,4 @@
-#include <string>
+#include <QString>
 #include "Dictionary.h"
 
 #ifndef LANGUAGE_H
@@ -7,30 +7,30 @@
 class Language
 {
 private:
-	std::string name;
-	std::string structure;
-	std::string consonants, vowels;
-	std::string onsetClusters, codaClusters;
+    QString name;
+    QString structure;
+    QString consonants, vowels;
+    QString onsetClusters, codaClusters;
 	Dictionary dictionary;
 
 public:
 	Language();
-	Language(std::string name);
+    Language(QString name);
 
 	Dictionary getDictionary() { return dictionary; };
-	std::string getName() { return name; };
-	std::string getConsonants() { return consonants; };
-	std::string getVowels() { return vowels; };
-	std::string getOnsetClusters() { return onsetClusters; };
-	std::string getCodaClusters() { return codaClusters; };
-    std::string getStructure(){ return structure; };
+    QString getName() { return name; };
+    QString getConsonants() { return consonants; };
+    QString getVowels() { return vowels; };
+    QString getOnsetClusters() { return onsetClusters; };
+    QString getCodaClusters() { return codaClusters; };
+    QString getStructure(){ return structure; };
 
-	bool setName(std::string n);
-	bool setConsonants(std::string c);
-	bool setVowels(std::string v);
-	bool setOnsetClusters(std::string c);
-	bool setCodaClusters(std::string c);
-	bool setStructure(std::string s);
+    bool setName(QString n);
+    bool setConsonants(QString c);
+    bool setVowels(QString v);
+    bool setOnsetClusters(QString c);
+    bool setCodaClusters(QString c);
+    bool setStructure(QString s);
 };
 
 #endif

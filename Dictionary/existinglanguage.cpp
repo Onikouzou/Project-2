@@ -4,6 +4,7 @@
 #include <QCheckBox>
 #include <QStringList>
 #include <QRadioButton>
+#include <QMessageBox>
 #include "customdialog.h"
 #include "mainmenu.h"
 #include "choosesounds.h"
@@ -14,6 +15,7 @@ ExistingLanguage::ExistingLanguage(QWidget *parent) :
     ui(new Ui::ExistingLanguage)
 {
     ui->setupUi(this);
+    lang = Language();
 }
 
 ExistingLanguage::~ExistingLanguage()
@@ -35,22 +37,16 @@ void ExistingLanguage::on_btnChooseStructure_clicked()
 
 void ExistingLanguage::on_btnChooseWords_clicked()
 {
-    bool unchecked = false;
-
-    // this is a framework I found online. Credit to http://www.andrewnoske.com/wiki/Code_-_qt_custom_input_dialog
-    CustomDialog words("Words", this);
-    words.addLabel("Please select the words you would like to use below:");
-    // Create words based on chosen sounds and structure.
-    // List words somehow so they can be added to dictionary on a click
-    // Probably bring up a dialog box that asks for type of word and definition(s)
-    words.addCheckBox("Option 1", &unchecked);
-    words.addCheckBox("Option 2", &unchecked);
-    words.addCheckBox("Option 3", &unchecked);
-
-    words.exec();
-
-    if(words.wasCancelled())
-      return;
+    if (lang.getStructure() == "" || lang.getConsonants() == "" || lang.getVowels() == "")
+    {
+        QMessageBox error;
+        error.setText("You need to do the previous things first.");
+        error.exec();
+    }
+    else
+    {
+        // Make the window
+    }
 }
 
 void ExistingLanguage::on_btnSearchDictionary_clicked()

@@ -28,13 +28,101 @@ void ChooseSounds::on_btnSubmit_clicked()
 
 void ChooseSounds::on_btnReset_clicked()
 {
-    ui->listConsonants->clear();
-    ui->listVowels->clear();
     consSounds = "";
     vowSounds = "";
     ui->lblCons->setText(consSounds);
-    //ui->lblVow->setText(vowSounds);
+    ui->lblVow->setText(vowSounds);
+
     // Reset all buttons to false :(
+    // Consonants
+    ui->btnP->setChecked(false);
+    ui->btnB->setChecked(false);
+    ui->btnM->setChecked(false);
+    ui->btnBilabialTrill->setChecked(false);
+    ui->btnBilabialFricative->setChecked(false);
+    ui->btnBeta->setChecked(false);
+    ui->btnLabiodentalNasal->setChecked(false);
+    ui->btnF->setChecked(false);
+    ui->btnV->setChecked(false);
+    ui->btnLabiodentaApprox->setChecked(false);
+    ui->btnTheta->setChecked(false);
+    ui->btnVoicedDentalFricative->setChecked(false);
+    ui->btnT->setChecked(false);
+    ui->btnD->setChecked(false);
+    ui->btnN->setChecked(false);
+    ui->btnR->setChecked(false);
+    ui->btnAlveolarTapFlap->setChecked(false);
+    ui->btnS->setChecked(false);
+    ui->btnZ->setChecked(false);
+    ui->btnAlveolarLatFric->setChecked(false);
+    ui->btnDentalAlveolarFricative->setChecked(false);
+    ui->btnAlveolarPostApprox->setChecked(false);
+    ui->btnL->setChecked(false);
+    ui->btnEsh->setChecked(false);
+    ui->btnEzh->setChecked(false);
+    ui->btnRetroflexStop->setChecked(false);
+    ui->btnRetroflexStop_2->setChecked(false);
+    ui->btnRetroflexNasal->setChecked(false);
+    ui->btnRetroflexFlap->setChecked(false);
+    ui->btnRetroflexSibilant->setChecked(false);
+    ui->btnVoicedRetroflexSibilant->setChecked(false);
+    ui->btnRetroflexApproximant->setChecked(false);
+    ui->btnRetroflexLateralApprox->setChecked(false);
+    ui->btnC->setChecked(false);
+    ui->btnPalatalStop->setChecked(false);
+    ui->btnPalatalNasal->setChecked(false);
+    ui->btnPalatalFricative->setChecked(false);
+    ui->btnPalatalFricative_2->setChecked(false);
+    ui->btnJ->setChecked(false);
+    ui->btnPalatalLateralApproximant->setChecked(false);
+    ui->btnK->setChecked(false);
+    ui->btnG->setChecked(false);
+    ui->btnVelarNasal->setChecked(false);
+    ui->btnX->setChecked(false);
+    ui->btnVoicedVelarFricative->setChecked(false);
+    ui->btnVoicedVelarApproximant->setChecked(false);
+    ui->btnVelarLateralApproximant->setChecked(false);
+    ui->btnQ->setChecked(false);
+    ui->btnVoicedUvularStop->setChecked(false);
+    ui->btnUvularNasal->setChecked(false);
+    ui->btnUvularTrill->setChecked(false);
+    ui->btnX2->setChecked(false);
+    ui->btnUvularFricative->setChecked(false);
+    ui->btnPharyngealFricative->setChecked(false);
+    ui->btnPharyngealFricative_2->setChecked(false);
+    ui->btnGlottalStop->setChecked(false);
+    ui->btnH->setChecked(false);
+    ui->btnGlottalFricative->setChecked(false);
+
+    // Vowels
+    ui->btnFrontClose->setChecked(false);
+    ui->btnFrontClose2->setChecked(false);
+    ui->btnFrontCloseMid->setChecked(false);
+    ui->btnNearFrontNearClose->setChecked(false);
+    ui->btnNearFrontNearClose2->setChecked(false);
+    ui->btnNearFrontCloseMid->setChecked(false);
+    ui->btnNearFrontOpenMid->setChecked(false);
+    ui->btnNearFrontNearOpen->setChecked(false);
+    ui->btnCentralClose->setChecked(false);
+    ui->btnCentralClose2->setChecked(false);
+    ui->btnCentralCloseMid->setChecked(false);
+    ui->btnCentralMid->setChecked(false);
+    ui->btnCentralOpenMid->setChecked(false);
+    ui->btnCentralOpenMid2->setChecked(false);
+    ui->btnCentralOpen->setChecked(false);
+    ui->btnNearBackNearClose->setChecked(false);
+    ui->btnNearBackCloseMid->setChecked(false);
+    ui->btnNearBackOpenMid->setChecked(false);
+    ui->btnNearBackNearOpen->setChecked(false);
+    ui->btnNearBackOpen->setChecked(false);
+    ui->btnBackClose->setChecked(false);
+    ui->btnBackClose2->setChecked(false);
+    ui->btnBackCloseMid->setChecked(false);
+    ui->btnBackCloseMid2->setChecked(false);
+    ui->btnBackOpenMid->setChecked(false);
+    ui->btnBackOpenMid2->setChecked(false);
+    ui->btnBackOpen->setChecked(false);
+    ui->btnBackOpen2->setChecked(false);
 }
 
 void ChooseSounds::setConsSounds(QString character, bool checked)
@@ -145,3 +233,30 @@ void ChooseSounds::on_btnGlottalFricative_toggled(bool checked)         { setCon
 
 // Vowels
 void ChooseSounds::on_btnFrontClose_toggled(bool checked)               { setVowSounds("i", checked); }
+void ChooseSounds::on_btnFrontClose2_toggled(bool checked)              { setVowSounds("y", checked); }
+void ChooseSounds::on_btnFrontCloseMid_toggled(bool checked)            { setVowSounds("e", checked); }
+void ChooseSounds::on_btnNearFrontNearClose_toggled(bool checked)       { setVowSounds("ɪ", checked); }
+void ChooseSounds::on_btnNearFrontNearClose2_toggled(bool checked)      { setVowSounds("ʏ", checked); }
+void ChooseSounds::on_btnNearFrontCloseMid_toggled(bool checked)        { setVowSounds("ø", checked); }
+void ChooseSounds::on_btnNearFrontOpenMid_toggled(bool checked)         { setVowSounds("ɛ", checked); }
+void ChooseSounds::on_btnNearFrontNearOpen_toggled(bool checked)        { setVowSounds("æ", checked); }
+void ChooseSounds::on_btnCentralClose_toggled(bool checked)             { setVowSounds("ɨ", checked); }
+void ChooseSounds::on_btnCentralClose2_toggled(bool checked)            { setVowSounds("ʉ", checked); }
+void ChooseSounds::on_btnCentralCloseMid_toggled(bool checked)          { setVowSounds("ɘ", checked); }
+void ChooseSounds::on_btnCentralMid_toggled(bool checked)               { setVowSounds("ə", checked); }
+void ChooseSounds::on_btnCentralOpenMid_toggled(bool checked)           { setVowSounds("œ", checked); }
+void ChooseSounds::on_btnCentralOpenMid2_toggled(bool checked)          { setVowSounds("ɜ", checked); }
+void ChooseSounds::on_btnCentralOpen_toggled(bool checked)              { setVowSounds("a", checked); }
+void ChooseSounds::on_btnNearBackNearClose_toggled(bool checked)        { setVowSounds("ʊ", checked); }
+void ChooseSounds::on_btnNearBackCloseMid_toggled(bool checked)         { setVowSounds("ɵ", checked); }
+void ChooseSounds::on_btnNearBackOpenMid_toggled(bool checked)          { setVowSounds("ɞ", checked); }
+void ChooseSounds::on_btnNearBackNearOpen_toggled(bool checked)         { setVowSounds("ɐ", checked); }
+void ChooseSounds::on_btnNearBackOpen_toggled(bool checked)             { setVowSounds("ä", checked); }
+void ChooseSounds::on_btnBackClose_toggled(bool checked)                { setVowSounds("ɯ", checked); }
+void ChooseSounds::on_btnBackClose2_toggled(bool checked)               { setVowSounds("u", checked); }
+void ChooseSounds::on_btnBackCloseMid_toggled(bool checked)             { setVowSounds("ɤ", checked); }
+void ChooseSounds::on_btnBackCloseMid2_toggled(bool checked)            { setVowSounds("o", checked); }
+void ChooseSounds::on_btnBackOpenMid_toggled(bool checked)              { setVowSounds("ʌ", checked); }
+void ChooseSounds::on_btnBackOpenMid2_toggled(bool checked)             { setVowSounds("ɔ", checked); }
+void ChooseSounds::on_btnBackOpen_toggled(bool checked)                 { setVowSounds("ɑ", checked); }
+void ChooseSounds::on_btnBackOpen2_toggled(bool checked)                { setVowSounds("ɒ", checked); }

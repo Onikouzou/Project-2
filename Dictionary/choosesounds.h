@@ -20,6 +20,7 @@ public:
     QString vowSounds;
 
 private slots:
+    // Consonants
     void on_btnSubmit_clicked();
     void on_btnP_toggled(bool checked);
     void on_btnBilabialFricative_toggled(bool checked);
@@ -81,7 +82,35 @@ private slots:
     void on_btnH_toggled(bool checked);
     void on_btnGlottalFricative_toggled(bool checked);
 
+    // Vowels
     void on_btnFrontClose_toggled(bool checked);
+    void on_btnFrontClose2_toggled(bool checked);
+    void on_btnFrontCloseMid_toggled(bool checked);
+    void on_btnNearFrontNearClose_toggled(bool checked);
+    void on_btnNearFrontNearClose2_toggled(bool checked);
+    void on_btnNearFrontCloseMid_toggled(bool checked);
+    void on_btnNearFrontOpenMid_toggled(bool checked);
+    void on_btnNearFrontNearOpen_toggled(bool checked);
+    void on_btnCentralClose_toggled(bool checked);
+    void on_btnCentralClose2_toggled(bool checked);
+    void on_btnCentralCloseMid_toggled(bool checked);
+    void on_btnCentralMid_toggled(bool checked);
+    void on_btnCentralOpenMid_toggled(bool checked);
+    void on_btnCentralOpenMid2_toggled(bool checked);
+    void on_btnCentralOpen_toggled(bool checked);
+    void on_btnNearBackNearClose_toggled(bool checked);
+    void on_btnNearBackCloseMid_toggled(bool checked);
+    void on_btnNearBackOpenMid_toggled(bool checked);
+    void on_btnNearBackNearOpen_toggled(bool checked);
+    void on_btnNearBackOpen_toggled(bool checked);
+    void on_btnBackClose_toggled(bool checked);
+    void on_btnBackClose2_toggled(bool checked);
+    void on_btnBackCloseMid_toggled(bool checked);
+    void on_btnBackCloseMid2_toggled(bool checked);
+    void on_btnBackOpenMid_toggled(bool checked);
+    void on_btnBackOpenMid2_toggled(bool checked);
+    void on_btnBackOpen_toggled(bool checked);
+    void on_btnBackOpen2_toggled(bool checked);
 
 private:
     Ui::ChooseSounds *ui;
