@@ -32,6 +32,7 @@ void MainMenu::on_btnCreateLanguage_clicked()
     name = QInputDialog::getText(this, "New Language",
             "Enter name of new language: ",
             QLineEdit::Normal);
+
 }
 
 void MainMenu::on_btnLoadLanguage_clicked()

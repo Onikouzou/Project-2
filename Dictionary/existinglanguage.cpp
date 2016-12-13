@@ -15,7 +15,7 @@ ExistingLanguage::ExistingLanguage(QWidget *parent) :
     ui(new Ui::ExistingLanguage)
 {
     ui->setupUi(this);
-    lang = Language();
+    ui->lblName->setText(lang.getName());
 }
 
 ExistingLanguage::~ExistingLanguage()
@@ -27,6 +27,7 @@ void ExistingLanguage::on_btnChooseSounds_clicked()
 {
     sounds = new ChooseSounds(this);
     sounds->show();
+    ui->lblName->setText(lang.getName());
 }
 
 void ExistingLanguage::on_btnChooseStructure_clicked()

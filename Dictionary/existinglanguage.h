@@ -20,6 +20,7 @@ class ExistingLanguage : public QMainWindow
 public:
     explicit ExistingLanguage(QWidget *parent = 0);
     ~ExistingLanguage();
+    Language lang;
 
 private slots:
     void on_btnChooseSounds_clicked();
@@ -34,7 +35,6 @@ private slots:
 
 private:
     Ui::ExistingLanguage *ui;
-    Language lang;
     ChooseSounds *sounds;
     chooseStructure *structure;
 

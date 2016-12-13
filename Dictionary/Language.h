@@ -6,6 +6,7 @@
 
 class Language
 {
+
 private:
     QString name;
     QString structure;

@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QString>
+#include "Language.h"
+#include <QObject>
 
 namespace Ui {
 class ChooseSounds;
@@ -18,6 +20,7 @@ public:
     ~ChooseSounds();
     QString consSounds;
     QString vowSounds;
+    Language lang1;
 
 private slots:
     // Consonants

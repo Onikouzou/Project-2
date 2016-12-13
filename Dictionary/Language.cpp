@@ -23,6 +23,11 @@ Language::Language()
 Language::Language(QString n)
 {
 	name = n;
+    structure = "";
+    consonants = "";
+    vowels = "";
+    onsetClusters = "";
+    codaClusters = "";
 	dictionary = Dictionary();
 }
 
