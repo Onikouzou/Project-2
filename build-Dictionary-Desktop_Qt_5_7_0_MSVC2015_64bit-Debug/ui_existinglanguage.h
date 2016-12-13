@@ -135,6 +135,7 @@ public:
         ExistingLanguage->setStatusBar(statusbar);
 
         retranslateUi(ExistingLanguage);
+        QObject::connect(btnReturn, SIGNAL(clicked()), ExistingLanguage, SLOT(close()));
 
         QMetaObject::connectSlotsByName(ExistingLanguage);
     } // setupUi
@@ -142,7 +143,7 @@ public:
     void retranslateUi(QMainWindow *ExistingLanguage)
     {
         ExistingLanguage->setWindowTitle(QApplication::translate("ExistingLanguage", "Language Creation Tool", 0));
-        lblName->setText(QApplication::translate("ExistingLanguage", "Existing Langauge", 0));
+        lblName->setText(QApplication::translate("ExistingLanguage", "Existing Language", 0));
         btnChooseSounds->setText(QApplication::translate("ExistingLanguage", "Choose Sounds", 0));
         btnChooseStructure->setText(QApplication::translate("ExistingLanguage", "Choose Structure", 0));
         btnChooseWords->setText(QApplication::translate("ExistingLanguage", "Choose Words", 0));

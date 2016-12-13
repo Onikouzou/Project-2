@@ -9,8 +9,8 @@ chooseWords::chooseWords(QWidget *parent) :
     ui->setupUi(this);
     QString wordList[16];
     lang = Language();
-    lang.setConsonants("b c d f g h j k l m n p q r s t v w x z ");
-    lang.setVowels("a e i o u ");
+    lang.setConsonants("p b m f v θ ð t d n r s z l ʃ ʒ j k g ŋ h ");
+    lang.setVowels("i e ɪ æ ə ɜ a ʊ ɐ u ʌ ɔ ");
     lang.setStructure("ccVcc");
 
     generateWords(lang, wordList);\

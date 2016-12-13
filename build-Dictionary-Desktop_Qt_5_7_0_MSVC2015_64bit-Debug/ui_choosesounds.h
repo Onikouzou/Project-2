@@ -188,7 +188,7 @@ public:
     QFrame *line_30;
     QFrame *line_31;
     QFrame *line_32;
-    QPushButton *pushButton_8;
+    QPushButton *btnReturn;
     QPushButton *btnSubmit;
     QLabel *lblCons;
     QLabel *lblVow;
@@ -1064,14 +1064,14 @@ public:
         line_32->setGeometry(QRect(280, 300, 661, 41));
         line_32->setFrameShape(QFrame::HLine);
         line_32->setFrameShadow(QFrame::Sunken);
-        pushButton_8 = new QPushButton(centralwidget);
-        pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
-        pushButton_8->setGeometry(QRect(150, 490, 75, 23));
+        btnReturn = new QPushButton(centralwidget);
+        btnReturn->setObjectName(QStringLiteral("btnReturn"));
+        btnReturn->setGeometry(QRect(150, 490, 75, 23));
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(pushButton_8->sizePolicy().hasHeightForWidth());
-        pushButton_8->setSizePolicy(sizePolicy);
+        sizePolicy.setHeightForWidth(btnReturn->sizePolicy().hasHeightForWidth());
+        btnReturn->setSizePolicy(sizePolicy);
         btnSubmit = new QPushButton(centralwidget);
         btnSubmit->setObjectName(QStringLiteral("btnSubmit"));
         btnSubmit->setGeometry(QRect(30, 490, 81, 23));
@@ -1265,7 +1265,7 @@ public:
         label_41->raise();
         label_42->raise();
         btnSubmit->raise();
-        pushButton_8->raise();
+        btnReturn->raise();
         lblCons->raise();
         lblVow->raise();
         label_45->raise();
@@ -1281,6 +1281,8 @@ public:
         ChooseSounds->setStatusBar(statusbar);
 
         retranslateUi(ChooseSounds);
+        QObject::connect(btnSubmit, SIGNAL(clicked()), ChooseSounds, SLOT(close()));
+        QObject::connect(btnReturn, SIGNAL(clicked()), ChooseSounds, SLOT(close()));
 
         QMetaObject::connectSlotsByName(ChooseSounds);
     } // setupUi
@@ -1416,7 +1418,7 @@ public:
         label_40->setText(QApplication::translate("ChooseSounds", "Central", 0));
         label_41->setText(QApplication::translate("ChooseSounds", "Near-Back", 0));
         label_42->setText(QApplication::translate("ChooseSounds", "Back", 0));
-        pushButton_8->setText(QApplication::translate("ChooseSounds", "Return", 0));
+        btnReturn->setText(QApplication::translate("ChooseSounds", "Return", 0));
         btnSubmit->setText(QApplication::translate("ChooseSounds", "Submit", 0));
         lblCons->setText(QString());
         lblVow->setText(QString());
