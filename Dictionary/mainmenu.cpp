@@ -50,6 +50,12 @@ void MainMenu::on_btnLoadLanguage_clicked()
 
     // open up the existing language window and hide the main menu
     existing = new ExistingLanguage(this);
+
+    QObject::connect(&existing->existingSlot, SIGNAL(nameChanged(QString)),
+                     &mainSlot, SLOT(setName(QString)));
+
+    mainSlot.setName(name);
+
     existing->show();
     MainMenu::hide();
 }

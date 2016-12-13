@@ -23,9 +23,8 @@ ChooseSounds::~ChooseSounds()
 
 void ChooseSounds::on_btnSubmit_clicked()
 {
-    lang1.setConsonants(consSounds);
-    lang1.setVowels(vowSounds);
-    lang1.setName("FAGGOT");
+    soundSlot.setCons(consSounds);
+    soundSlot.setVows(vowSounds);
 }
 
 void ChooseSounds::on_btnReset_clicked()

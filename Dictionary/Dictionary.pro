@@ -21,7 +21,8 @@ SOURCES += main.cpp\
     choosesounds.cpp \
     choosestructure.cpp \
     SoundHelper.cpp \
-    WordGenerator.cpp
+    WordGenerator.cpp \
+    signalslots.cpp
 
 HEADERS  += mainmenu.h \
     existinglanguage.h \
@@ -29,7 +30,8 @@ HEADERS  += mainmenu.h \
     Language.h \
     Dictionary.h \
     choosesounds.h \
-    choosestructure.h
+    choosestructure.h \
+    signalslots.h
 
 FORMS    += mainmenu.ui \
     existinglanguage.ui \

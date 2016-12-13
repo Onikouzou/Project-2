@@ -1,20 +1,21 @@
 #include "existinglanguage.h"
 #include "ui_existinglanguage.h"
 #include <QInputDialog>
-#include <QCheckBox>
 #include <QStringList>
-#include <QRadioButton>
 #include <QMessageBox>
 #include "customdialog.h"
 #include "mainmenu.h"
 #include "choosesounds.h"
 #include "choosestructure.h"
+#include <QObject>
 
 ExistingLanguage::ExistingLanguage(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::ExistingLanguage)
 {
     ui->setupUi(this);
+
+    lang = Language(existingSlot.getName());
     ui->lblName->setText(lang.getName());
 }
 
@@ -26,8 +27,18 @@ ExistingLanguage::~ExistingLanguage()
 void ExistingLanguage::on_btnChooseSounds_clicked()
 {
     sounds = new ChooseSounds(this);
+
+
+    QObject::connect(&sounds->soundSlot, SIGNAL(consChanged(QString)),
+                     &existingSlot, SLOT(setCons(QString)));
+
+    QObject::connect(&sounds->soundSlot, SIGNAL(vowsChanged(QString)),
+                     &existingSlot, SLOT(setVows(QString)));
+
+    lang.setConsonants(existingSlot.getCons());
+    lang.setVowels(existingSlot.getVows());
+
     sounds->show();
-    ui->lblName->setText(lang.getName());
 }
 
 void ExistingLanguage::on_btnChooseStructure_clicked()

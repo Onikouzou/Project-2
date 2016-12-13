@@ -8,6 +8,7 @@
 #include "Language.h"
 #include "choosesounds.h"
 #include "choosestructure.h"
+#include "signalslots.h"
 
 namespace Ui {
 class ExistingLanguage;
@@ -21,6 +22,7 @@ public:
     explicit ExistingLanguage(QWidget *parent = 0);
     ~ExistingLanguage();
     Language lang;
+    signalslots existingSlot;
 
 private slots:
     void on_btnChooseSounds_clicked();

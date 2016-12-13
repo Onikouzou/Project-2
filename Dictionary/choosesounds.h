@@ -6,6 +6,7 @@
 #include <QString>
 #include "Language.h"
 #include <QObject>
+#include "signalslots.h"
 
 namespace Ui {
 class ChooseSounds;
@@ -20,7 +21,7 @@ public:
     ~ChooseSounds();
     QString consSounds;
     QString vowSounds;
-    Language lang1;
+    signalslots soundSlot;
 
 private slots:
     // Consonants

@@ -13,6 +13,7 @@
 #include <QStringList>
 #include <QMessageBox>
 #include <QString>
+#include "signalslots.h"
 
 namespace Ui {
 class MainMenu;
@@ -25,6 +26,7 @@ class MainMenu : public QMainWindow
 public:
     explicit MainMenu(QWidget *parent = 0);
     QString name;
+    signalslots mainSlot;
     ~MainMenu();
 
 private slots:
