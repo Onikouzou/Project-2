@@ -57,7 +57,6 @@ void MainMenu::on_btnLoadLanguage_clicked()
     mainSlot.setName(name);
 
     existing->show();
-    MainMenu::hide();
 }
 
 void MainMenu::on_btnExit_clicked()

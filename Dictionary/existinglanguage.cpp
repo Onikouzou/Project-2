@@ -8,7 +8,7 @@
 #include "choosesounds.h"
 #include "choosestructure.h"
 #include <QObject>
-#include "WordGenerator.cpp"
+#include "choosewords.h"
 
 ExistingLanguage::ExistingLanguage(QWidget *parent) :
     QMainWindow(parent),
@@ -53,27 +53,8 @@ void ExistingLanguage::on_btnChooseStructure_clicked()
 
 void ExistingLanguage::on_btnChooseWords_clicked()
 {
-    if (lang.getStructure() == "" || lang.getConsonants() == "" || lang.getVowels() == "")
-    {
-        QString words[10];
-        generateWords(lang, words);
-        QMessageBox error;
-        error.setText(words[1]);
-        error.exec();
-    }
-    else
-    {
-        QString words[10];
-        generateWords(lang, words);
-         QMessageBox wordList;
-         QString allWords = "";
-         for (int i = 0; i < 10; i++)
-         {
-             allWords += words[i] + "\n";
-         }
-         wordList.setText(allWords);
-         wordList.exec();
-    }
+    words = new chooseWords(this);
+    words->show();
 }
 
 void ExistingLanguage::on_btnSearchDictionary_clicked()

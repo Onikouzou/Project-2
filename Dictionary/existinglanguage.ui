@@ -35,7 +35,7 @@
        <enum>Qt::LeftToRight</enum>
       </property>
       <property name="text">
-       <string>Existing Langauge</string>
+       <string>Existing Language</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -184,7 +184,24 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>btnReturn</sender>
+   <signal>clicked()</signal>
+   <receiver>ExistingLanguage</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>473</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>473</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
  <buttongroups>
   <buttongroup name="buttonGroup"/>
  </buttongroups>

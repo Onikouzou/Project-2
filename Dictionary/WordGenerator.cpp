@@ -10,7 +10,7 @@
 static void generateWords(Language lang, QString* words)
 {
     // Generate X number of words in one go
-    const int NUM_WORDS = 10;
+    const int NUM_WORDS = 16;
 
     // Random seed
     srand(time(NULL));

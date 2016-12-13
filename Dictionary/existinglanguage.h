@@ -9,6 +9,7 @@
 #include "choosesounds.h"
 #include "choosestructure.h"
 #include "signalslots.h"
+#include "choosewords.h"
 
 namespace Ui {
 class ExistingLanguage;
@@ -39,6 +40,7 @@ private:
     Ui::ExistingLanguage *ui;
     ChooseSounds *sounds;
     chooseStructure *structure;
+    chooseWords *words;
 
 };
 
