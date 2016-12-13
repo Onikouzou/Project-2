@@ -29,7 +29,7 @@ class Ui_ExistingLanguage
 public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_2;
-    QLabel *label;
+    QLabel *lblName;
     QVBoxLayout *verticalLayout;
     QPushButton *btnChooseSounds;
     QPushButton *btnChooseStructure;
@@ -54,18 +54,18 @@ public:
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         verticalLayout_2 = new QVBoxLayout(centralwidget);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QStringLiteral("label"));
+        lblName = new QLabel(centralwidget);
+        lblName->setObjectName(QStringLiteral("lblName"));
         QFont font;
         font.setFamily(QStringLiteral("Franklin Gothic Heavy"));
         font.setPointSize(36);
         font.setBold(true);
         font.setWeight(75);
-        label->setFont(font);
-        label->setLayoutDirection(Qt::LeftToRight);
-        label->setAlignment(Qt::AlignCenter);
+        lblName->setFont(font);
+        lblName->setLayoutDirection(Qt::LeftToRight);
+        lblName->setAlignment(Qt::AlignCenter);
 
-        verticalLayout_2->addWidget(label);
+        verticalLayout_2->addWidget(lblName);
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
@@ -142,7 +142,7 @@ public:
     void retranslateUi(QMainWindow *ExistingLanguage)
     {
         ExistingLanguage->setWindowTitle(QApplication::translate("ExistingLanguage", "Language Creation Tool", 0));
-        label->setText(QApplication::translate("ExistingLanguage", "Existing Langauge", 0));
+        lblName->setText(QApplication::translate("ExistingLanguage", "Existing Langauge", 0));
         btnChooseSounds->setText(QApplication::translate("ExistingLanguage", "Choose Sounds", 0));
         btnChooseStructure->setText(QApplication::translate("ExistingLanguage", "Choose Structure", 0));
         btnChooseWords->setText(QApplication::translate("ExistingLanguage", "Choose Words", 0));

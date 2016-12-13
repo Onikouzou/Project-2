@@ -8,6 +8,7 @@
 #include "choosesounds.h"
 #include "choosestructure.h"
 #include <QObject>
+#include "WordGenerator.cpp"
 
 ExistingLanguage::ExistingLanguage(QWidget *parent) :
     QMainWindow(parent),
@@ -16,6 +17,9 @@ ExistingLanguage::ExistingLanguage(QWidget *parent) :
     ui->setupUi(this);
 
     lang = Language(existingSlot.getName());
+    lang.setConsonants("b c d f g h j k l m n p q r s t v w x z ");
+    lang.setVowels("a e i o u ");
+    lang.setStructure("ccVcc");
     ui->lblName->setText(lang.getName());
 }
 
@@ -51,13 +55,24 @@ void ExistingLanguage::on_btnChooseWords_clicked()
 {
     if (lang.getStructure() == "" || lang.getConsonants() == "" || lang.getVowels() == "")
     {
+        QString words[10];
+        generateWords(lang, words);
         QMessageBox error;
-        error.setText("You need to do the previous things first.");
+        error.setText(words[1]);
         error.exec();
     }
     else
     {
-        // Make the window
+        QString words[10];
+        generateWords(lang, words);
+         QMessageBox wordList;
+         QString allWords = "";
+         for (int i = 0; i < 10; i++)
+         {
+             allWords += words[i] + "\n";
+         }
+         wordList.setText(allWords);
+         wordList.exec();
     }
 }
 

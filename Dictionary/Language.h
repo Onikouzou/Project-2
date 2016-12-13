@@ -12,13 +12,13 @@ private:
     QString structure;
     QString consonants, vowels;
     QString onsetClusters, codaClusters;
-	Dictionary dictionary;
+//	Dictionary dictionary;
 
 public:
 	Language();
     Language(QString name);
 
-	Dictionary getDictionary() { return dictionary; };
+//	Dictionary getDictionary() { return dictionary; };
     QString getName() { return name; };
     QString getConsonants() { return consonants; };
     QString getVowels() { return vowels; };

@@ -13,7 +13,7 @@ Language::Language()
     vowels = "";
     onsetClusters = "";
     codaClusters = "";
-	dictionary = Dictionary();
+//	dictionary = Dictionary();
 }
 
 // ---------
@@ -28,7 +28,7 @@ Language::Language(QString n)
     vowels = "";
     onsetClusters = "";
     codaClusters = "";
-	dictionary = Dictionary();
+//	dictionary = Dictionary();
 }
 
 
