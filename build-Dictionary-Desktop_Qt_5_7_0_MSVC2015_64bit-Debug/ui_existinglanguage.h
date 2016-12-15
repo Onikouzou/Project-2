@@ -30,6 +30,7 @@ public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_2;
     QLabel *lblName;
+    QLabel *lblSounds;
     QVBoxLayout *verticalLayout;
     QPushButton *btnChooseSounds;
     QPushButton *btnChooseStructure;
@@ -66,6 +67,13 @@ public:
         lblName->setAlignment(Qt::AlignCenter);
 
         verticalLayout_2->addWidget(lblName);
+
+        lblSounds = new QLabel(centralwidget);
+        lblSounds->setObjectName(QStringLiteral("lblSounds"));
+        lblSounds->setLayoutDirection(Qt::LeftToRight);
+        lblSounds->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_2->addWidget(lblSounds);
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
@@ -144,6 +152,7 @@ public:
     {
         ExistingLanguage->setWindowTitle(QApplication::translate("ExistingLanguage", "Language Creation Tool", 0));
         lblName->setText(QApplication::translate("ExistingLanguage", "Existing Language", 0));
+        lblSounds->setText(QApplication::translate("ExistingLanguage", "SoundsTemp", 0));
         btnChooseSounds->setText(QApplication::translate("ExistingLanguage", "Choose Sounds", 0));
         btnChooseStructure->setText(QApplication::translate("ExistingLanguage", "Choose Structure", 0));
         btnChooseWords->setText(QApplication::translate("ExistingLanguage", "Choose Words", 0));

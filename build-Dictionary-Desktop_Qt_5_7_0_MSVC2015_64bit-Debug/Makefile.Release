@@ -819,8 +819,6 @@ release\moc_choosesounds.cpp: E:\Qt\5.7\msvc2015_64\include\QtWidgets\QMainWindo
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qicon.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QStringList \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QString \
-		..\Dictionary\Language.h \
-		..\Dictionary\Dictionary.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QObject \
 		..\Dictionary\signalslots.h \
 		..\Dictionary\choosesounds.h \
@@ -926,6 +924,8 @@ release\moc_choosestructure.cpp: E:\Qt\5.7\msvc2015_64\include\QtWidgets\QDialog
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qvector2d.h \
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qtouchdevice.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QString \
+		..\Dictionary\signalslots.h \
+		E:\Qt\5.7\msvc2015_64\include\QtCore\QObject \
 		..\Dictionary\choosestructure.h \
 		E:\Qt\5.7\msvc2015_64\bin\moc.exe
 	E:\Qt\5.7\msvc2015_64\bin\moc.exe $(DEFINES) -D_MSC_VER=1900 -D_WIN32 -D_WIN64 -IE:/Qt/5.7/msvc2015_64/mkspecs/win32-msvc2015 -I"E:/Vince/My Documents/GitHub/Project-2/Dictionary" -IE:/Qt/5.7/msvc2015_64/include -IE:/Qt/5.7/msvc2015_64/include/QtWidgets -IE:/Qt/5.7/msvc2015_64/include/QtGui -IE:/Qt/5.7/msvc2015_64/include/QtANGLE -IE:/Qt/5.7/msvc2015_64/include/QtCore -I. ..\Dictionary\choosestructure.h -o release\moc_choosestructure.cpp
@@ -1950,8 +1950,6 @@ release\choosesounds.obj: ..\Dictionary\choosesounds.cpp ../Dictionary/choosesou
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qicon.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QStringList \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QString \
-		../Dictionary/Language.h \
-		../Dictionary/Dictionary.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QObject \
 		../Dictionary/signalslots.h \
 		ui_choosesounds.h \
@@ -2083,6 +2081,8 @@ release\choosestructure.obj: ..\Dictionary\choosestructure.cpp ../Dictionary/cho
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qvector2d.h \
 		E:\Qt\5.7\msvc2015_64\include\QtGui\qtouchdevice.h \
 		E:\Qt\5.7\msvc2015_64\include\QtCore\QString \
+		../Dictionary/signalslots.h \
+		E:\Qt\5.7\msvc2015_64\include\QtCore\QObject \
 		ui_choosestructure.h
 
 release\signalslots.obj: ..\Dictionary\signalslots.cpp ../Dictionary/signalslots.h \

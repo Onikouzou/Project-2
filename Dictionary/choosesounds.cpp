@@ -12,8 +12,6 @@ ChooseSounds::ChooseSounds(QWidget *parent) :
     ui->setupUi(this);
     consSounds = "";
     vowSounds = "";
-    masterConsList = "p b m ʙ ɸ β ɱ f v ʋ θ ð t d n r ɾ s z ɬ ɮ ɹ l ʃ ʒ ʈ ɖ ɳ ɽ ʂ ʐ ɻ ɭ c ɟ ɲ ç ʝ j ʎ k g ŋ x ɣ ɰ ʟ q ɢ ɴ ʀ χ ʁ ħ ʕ ʔ h ɦ ";
-    masterVowList = "i y e ɪ ʏ ø ɛ æ ɨ ʉ ɘ ə œ ɜ a ʊ ɵ ɞ ɐ ä ɯ u ɤ o ʌ ɔ ɑ ɒ ";
 }
 
 ChooseSounds::~ChooseSounds()
@@ -23,8 +21,8 @@ ChooseSounds::~ChooseSounds()
 
 void ChooseSounds::on_btnSubmit_clicked()
 {
-    soundSlot.setCons(consSounds);
-    soundSlot.setVows(vowSounds);
+    signalslot.setCons(consSounds);
+    signalslot.setVows(vowSounds);
 }
 
 void ChooseSounds::on_btnReset_clicked()

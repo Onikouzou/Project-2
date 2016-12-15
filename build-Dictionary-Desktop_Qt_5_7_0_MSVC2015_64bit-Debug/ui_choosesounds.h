@@ -204,6 +204,7 @@ public:
         if (ChooseSounds->objectName().isEmpty())
             ChooseSounds->setObjectName(QStringLiteral("ChooseSounds"));
         ChooseSounds->resize(947, 581);
+        ChooseSounds->setMinimumSize(QSize(947, 581));
         centralwidget = new QWidget(ChooseSounds);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         btnP = new QPushButton(centralwidget);

@@ -26,3 +26,12 @@ void signalslots::setVows(QString v)
         emit vowsChanged(v);
     }
 }
+
+void signalslots::setStructure(QString s)
+{
+    if (m_Structure != s)
+    {
+        m_Structure = s;
+        emit structureChanged(s);
+    }
+}

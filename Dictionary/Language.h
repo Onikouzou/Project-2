@@ -19,19 +19,19 @@ public:
     Language(QString name);
 
 //	Dictionary getDictionary() { return dictionary; };
-    QString getName() { return name; };
-    QString getConsonants() { return consonants; };
-    QString getVowels() { return vowels; };
-    QString getOnsetClusters() { return onsetClusters; };
-    QString getCodaClusters() { return codaClusters; };
-    QString getStructure(){ return structure; };
+    QString getName() { return name; }
+    QString getCons() { return consonants; }
+    QString getVows() { return vowels; }
+    QString getOnsetClusters() { return onsetClusters; }
+    QString getCodaClusters() { return codaClusters; }
+    QString getStructure(){ return structure; }
 
-    bool setName(QString n);
-    bool setConsonants(QString c);
-    bool setVowels(QString v);
-    bool setOnsetClusters(QString c);
-    bool setCodaClusters(QString c);
-    bool setStructure(QString s);
+    void setName(QString n);
+    void setCons(QString c);
+    void setVows(QString v);
+    void setOnsetClusters(QString c);
+    void setCodaClusters(QString c);
+    void setStructure(QString s);
 };
 
 #endif

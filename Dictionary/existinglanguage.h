@@ -20,10 +20,10 @@ class ExistingLanguage : public QMainWindow
     Q_OBJECT
 
 public:
-    explicit ExistingLanguage(QWidget *parent = 0);
+    explicit ExistingLanguage(QWidget *parent = 0, QString langName = "Unnamed");
     ~ExistingLanguage();
     Language lang;
-    signalslots existingSlot;
+    signalslots signalslot;
 
 private slots:
     void on_btnChooseSounds_clicked();

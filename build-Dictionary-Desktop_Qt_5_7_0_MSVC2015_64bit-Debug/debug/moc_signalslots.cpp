@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_signalslots_t {
-    QByteArrayData data[14];
-    char stringdata0[103];
+    QByteArrayData data[18];
+    char stringdata0[148];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -37,17 +37,22 @@ QT_MOC_LITERAL(4, 33, 11), // "consChanged"
 QT_MOC_LITERAL(5, 45, 7), // "newCons"
 QT_MOC_LITERAL(6, 53, 11), // "vowsChanged"
 QT_MOC_LITERAL(7, 65, 7), // "newVows"
-QT_MOC_LITERAL(8, 73, 7), // "setName"
-QT_MOC_LITERAL(9, 81, 1), // "n"
-QT_MOC_LITERAL(10, 83, 7), // "setCons"
-QT_MOC_LITERAL(11, 91, 1), // "c"
-QT_MOC_LITERAL(12, 93, 7), // "setVows"
-QT_MOC_LITERAL(13, 101, 1) // "v"
+QT_MOC_LITERAL(8, 73, 16), // "structureChanged"
+QT_MOC_LITERAL(9, 90, 12), // "newStructure"
+QT_MOC_LITERAL(10, 103, 7), // "setName"
+QT_MOC_LITERAL(11, 111, 1), // "n"
+QT_MOC_LITERAL(12, 113, 7), // "setCons"
+QT_MOC_LITERAL(13, 121, 1), // "c"
+QT_MOC_LITERAL(14, 123, 7), // "setVows"
+QT_MOC_LITERAL(15, 131, 1), // "v"
+QT_MOC_LITERAL(16, 133, 12), // "setStructure"
+QT_MOC_LITERAL(17, 146, 1) // "s"
 
     },
     "signalslots\0nameChanged\0\0newName\0"
     "consChanged\0newCons\0vowsChanged\0newVows\0"
-    "setName\0n\0setCons\0c\0setVows\0v"
+    "structureChanged\0newStructure\0setName\0"
+    "n\0setCons\0c\0setVows\0v\0setStructure\0s"
 };
 #undef QT_MOC_LITERAL
 
@@ -57,32 +62,36 @@ static const uint qt_meta_data_signalslots[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       6,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       3,       // signalCount
+       4,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   44,    2, 0x06 /* Public */,
-       4,    1,   47,    2, 0x06 /* Public */,
-       6,    1,   50,    2, 0x06 /* Public */,
+       1,    1,   54,    2, 0x06 /* Public */,
+       4,    1,   57,    2, 0x06 /* Public */,
+       6,    1,   60,    2, 0x06 /* Public */,
+       8,    1,   63,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       8,    1,   53,    2, 0x0a /* Public */,
-      10,    1,   56,    2, 0x0a /* Public */,
-      12,    1,   59,    2, 0x0a /* Public */,
+      10,    1,   66,    2, 0x0a /* Public */,
+      12,    1,   69,    2, 0x0a /* Public */,
+      14,    1,   72,    2, 0x0a /* Public */,
+      16,    1,   75,    2, 0x0a /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
     QMetaType::Void, QMetaType::QString,    5,
     QMetaType::Void, QMetaType::QString,    7,
+    QMetaType::Void, QMetaType::QString,    9,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::QString,    9,
     QMetaType::Void, QMetaType::QString,   11,
     QMetaType::Void, QMetaType::QString,   13,
+    QMetaType::Void, QMetaType::QString,   15,
+    QMetaType::Void, QMetaType::QString,   17,
 
        0        // eod
 };
@@ -96,9 +105,11 @@ void signalslots::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         case 0: _t->nameChanged((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 1: _t->consChanged((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 2: _t->vowsChanged((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 3: _t->setName((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 4: _t->setCons((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 5: _t->setVows((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 3: _t->structureChanged((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 4: _t->setName((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 5: _t->setCons((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 6: _t->setVows((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 7: _t->setStructure((*reinterpret_cast< QString(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -122,6 +133,13 @@ void signalslots::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
             typedef void (signalslots::*_t)(QString );
             if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&signalslots::vowsChanged)) {
                 *result = 2;
+                return;
+            }
+        }
+        {
+            typedef void (signalslots::*_t)(QString );
+            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&signalslots::structureChanged)) {
+                *result = 3;
                 return;
             }
         }
@@ -153,13 +171,13 @@ int signalslots::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 6;
+        _id -= 8;
     }
     return _id;
 }
@@ -183,5 +201,12 @@ void signalslots::vowsChanged(QString _t1)
 {
     void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void signalslots::structureChanged(QString _t1)
+{
+    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 QT_END_MOC_NAMESPACE

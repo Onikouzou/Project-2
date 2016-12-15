@@ -25,7 +25,9 @@ class MainMenu : public QMainWindow
 
 public:
     explicit MainMenu(QWidget *parent = 0);
-    QString name;
+    static const int NAME_MAX = 100;
+    QString names[NAME_MAX];
+    int nameCount;
     signalslots mainSlot;
     ~MainMenu();
 

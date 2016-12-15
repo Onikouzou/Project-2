@@ -10,17 +10,14 @@
 #include <QObject>
 #include "choosewords.h"
 
-ExistingLanguage::ExistingLanguage(QWidget *parent) :
+ExistingLanguage::ExistingLanguage(QWidget *parent, QString langName) :
     QMainWindow(parent),
     ui(new Ui::ExistingLanguage)
 {
     ui->setupUi(this);
 
-    lang = Language(existingSlot.getName());
-    lang.setConsonants("b c d f g h j k l m n p q r s t v w x z ");
-    lang.setVowels("a e i o u ");
-    lang.setStructure("ccVcc");
-    ui->lblName->setText(lang.getName());
+    lang.setName(langName);
+    ui->lblName->setText(langName);
 }
 
 ExistingLanguage::~ExistingLanguage()
@@ -32,29 +29,46 @@ void ExistingLanguage::on_btnChooseSounds_clicked()
 {
     sounds = new ChooseSounds(this);
 
+    QObject::connect(&sounds->signalslot, SIGNAL(consChanged(QString)),
+                     &signalslot, SLOT(setCons(QString)));
 
-    QObject::connect(&sounds->soundSlot, SIGNAL(consChanged(QString)),
-                     &existingSlot, SLOT(setCons(QString)));
-
-    QObject::connect(&sounds->soundSlot, SIGNAL(vowsChanged(QString)),
-                     &existingSlot, SLOT(setVows(QString)));
-
-    lang.setConsonants(existingSlot.getCons());
-    lang.setVowels(existingSlot.getVows());
+    QObject::connect(&sounds->signalslot, SIGNAL(vowsChanged(QString)),
+                     &signalslot, SLOT(setVows(QString)));
 
     sounds->show();
+
+    ui->lblSounds->setText(signalslot.getCons());
 }
 
 void ExistingLanguage::on_btnChooseStructure_clicked()
 {
     structure = new chooseStructure(this);
+
+    QObject::connect(&structure->signalslot, SIGNAL(structureChanged(QString)),
+                     &signalslot, SLOT(setStructure(QString)));
+
     structure->show();
 }
 
 void ExistingLanguage::on_btnChooseWords_clicked()
 {
-    words = new chooseWords(this);
-    words->show();
+    lang.setCons(signalslot.getCons());
+    lang.setVows(signalslot.getVows());
+    lang.setStructure(signalslot.getStructure());
+
+    if (lang.getCons().compare("") != 0 && lang.getVows().compare("") != 0
+            && lang.getStructure().compare("") != 0 /*&& lang.getCodaClusters() != "" && lang.getOnsetClusters() != ""*/)
+    {
+        words = new chooseWords(this, &signalslot);
+        words->show();
+    }
+    else
+    {
+        QMessageBox error;
+        error.setText("You need to finish other parts first.");
+        error.exec();
+    }
+
 }
 
 void ExistingLanguage::on_btnSearchDictionary_clicked()

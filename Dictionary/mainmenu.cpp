@@ -20,6 +20,10 @@ MainMenu::MainMenu(QWidget *parent) :
     ui(new Ui::MainMenu)
 {
     ui->setupUi(this);
+    nameCount = 0;
+
+    for (int i = 0; i < NAME_MAX; i++)
+        names[i] = "";
 }
 
 MainMenu::~MainMenu()
@@ -29,10 +33,19 @@ MainMenu::~MainMenu()
 
 void MainMenu::on_btnCreateLanguage_clicked()
 {
-    name = QInputDialog::getText(this, "New Language",
-            "Enter name of new language: ",
-            QLineEdit::Normal);
-
+    if (nameCount < NAME_MAX)
+    {
+        names[nameCount] = QInputDialog::getText(this, "New Language",
+                "Enter name of new language: ",
+                QLineEdit::Normal);
+        nameCount++;
+    }
+    else
+    {
+        QMessageBox error;
+        error.setText("There are too many names.");
+        error.exec();
+    }
 }
 
 void MainMenu::on_btnLoadLanguage_clicked()
@@ -40,21 +53,22 @@ void MainMenu::on_btnLoadLanguage_clicked()
     // variables and list creation
     QInputDialog load;
     QStringList nameList;
-    nameList << name;
+    for (int i = 0; i < nameCount; i++)
+        nameList << names[i];
 
     // create the dialog box for displaying the list of existing languages
     load.setOptions(QInputDialog::UseListViewForComboBoxItems);
     load.setComboBoxItems(nameList);
     load.setWindowTitle("Load Language");
-    load.exec();
+
+    QString nameChosen = "";
+    if (load.exec())
+    {
+        nameChosen = load.textValue();
+    }
 
     // open up the existing language window and hide the main menu
-    existing = new ExistingLanguage(this);
-
-    QObject::connect(&existing->existingSlot, SIGNAL(nameChanged(QString)),
-                     &mainSlot, SLOT(setName(QString)));
-
-    mainSlot.setName(name);
+    existing = new ExistingLanguage(this, nameChosen);
 
     existing->show();
 }

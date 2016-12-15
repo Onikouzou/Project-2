@@ -4,10 +4,10 @@
 #include <cstdlib>
 #include <time.h>
 
-#include "Language.h"
+#include "signalslots.h"
 
 
-static void generateWords(Language lang, QString* words)
+static void generateWords(signalslots* lang, QString* words)
 {
     // Generate X number of words in one go
     const int NUM_WORDS = 16;
@@ -17,7 +17,7 @@ static void generateWords(Language lang, QString* words)
 
     // Calculates all of the possible syllable structures
     // based on the given "master" structure
-    QString syll = lang.getStructure();
+    QString syll = lang->getStructure();
     const int STRUCT_SIZE = 100;
     QString structures[STRUCT_SIZE];
     QString temp;
@@ -101,12 +101,12 @@ static void generateWords(Language lang, QString* words)
         count++;
     } // End if
 
-    QString tempVowels = lang.getVowels();
-    QString tempCons = lang.getConsonants();
+    QString tempVowels = lang->getVows();
+    QString tempCons = lang->getCons();
 
     // Need these to make sure cluster is okay
-    QString tempOnsetClusters = lang.getOnsetClusters();
-    QString tempCodaClusters = lang.getCodaClusters();
+//    QString tempOnsetClusters = lang->getOnsetClusters();
+//    QString tempCodaClusters = lang->getCodaClusters();
 
     // Create a random num of syllables (1-3) using random structures
     // for each, and put them together to make words. Omit syllables

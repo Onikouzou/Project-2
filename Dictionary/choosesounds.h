@@ -4,7 +4,6 @@
 #include <QMainWindow>
 #include <QStringList>
 #include <QString>
-#include "Language.h"
 #include <QObject>
 #include "signalslots.h"
 
@@ -21,7 +20,7 @@ public:
     ~ChooseSounds();
     QString consSounds;
     QString vowSounds;
-    signalslots soundSlot;
+    signalslots signalslot;
 
 private slots:
     // Consonants
@@ -120,8 +119,8 @@ private:
     Ui::ChooseSounds *ui;
     void setConsSounds(QString character, bool checked);
     void setVowSounds(QString character, bool checked);
-    QString masterConsList;
-    QString masterVowList;
+    const QString masterConsList = "p b m ʙ ɸ β ɱ f v ʋ θ ð t d n r ɾ s z ɬ ɮ ɹ l ʃ ʒ ʈ ɖ ɳ ɽ ʂ ʐ ɻ ɭ c ɟ ɲ ç ʝ j ʎ k g ŋ x ɣ ɰ ʟ q ɢ ɴ ʀ χ ʁ ħ ʕ ʔ h ɦ ";
+    const QString masterVowList = "i y e ɪ ʏ ø ɛ æ ɨ ʉ ɘ ə œ ɜ a ʊ ɵ ɞ ɐ ä ɯ u ɤ o ʌ ɔ ɑ ɒ ";
 };
 
 #endif // CHOOSESOUNDS_H

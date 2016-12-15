@@ -17,22 +17,26 @@ void chooseStructure::on_btnLowerC_clicked()
 {
     structure += "c";
     ui->labelStructure->setText(structure);
+    signalslot.setStructure(structure);
 }
 
 void chooseStructure::on_btnUpperC_clicked()
 {
     structure += "C";
     ui->labelStructure->setText(structure);
+    signalslot.setStructure(structure);
 }
 
 void chooseStructure::on_btnLowerV_clicked()
 {
     structure += "v";
     ui->labelStructure->setText(structure);
+    signalslot.setStructure(structure);
 }
 
 void chooseStructure::on_btnUpperV_clicked()
 {
     structure += "V";
     ui->labelStructure->setText(structure);
+    signalslot.setStructure(structure);
 }

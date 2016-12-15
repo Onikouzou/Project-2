@@ -2,7 +2,6 @@
 // Authors: Vince Cefalu & Matt Neis
 
 #include <cstdlib>
-#include <iostream>
 #include <string>
 #include <locale>
 

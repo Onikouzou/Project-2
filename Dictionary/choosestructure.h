@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include <QString>
+#include "signalslots.h"
 
 namespace Ui {
 class chooseStructure;
@@ -16,6 +17,7 @@ public:
     explicit chooseStructure(QWidget *parent = 0);
     ~chooseStructure();
     QString structure;
+    signalslots signalslot;
 
 private slots:
     void on_btnLowerC_clicked();
